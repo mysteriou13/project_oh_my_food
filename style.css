@@ -1,0 +1,26 @@
+body {
+  background-color: #ffffff; }
+
+img {
+  -o-object-fit: cover;
+     object-fit: cover; }
+
+footer {
+  background-color: #353535ff;
+  color: white;
+  justify-content: space-around;
+  height: 100px; }
+
+.flex_box_image {
+  width: 95%;
+  left: 2%;
+  position: relative;
+  left: 2%; }
+
+.taille_image {
+  width: 100%;
+  height: 28vh;
+  border-top-left-radius: 25px 37px;
+  border-top-right-radius: 25px 37px; }
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNhc3MvYmFzZS9iYXNlLnNjc3MiLCJzYXNzL2Jhc2UvdmFyaWFibGUuc2NzcyIsInNhc3MvZmxleF9ib3hfaW1hZ2Uuc2NzcyIsInNhc3MvYmFzZS90YWlsbGVfaW1hZ2Uuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUdJLHlCQ0RjLEVBQUE7O0FES2hCO0VBRUEsb0JBQWdCO0tBQWhCLGlCQUFnQixFQUFBOztBQUloQjtFQUdBLDJCQ1ptQjtFRGNuQixZQUFXO0VBSVQsNkJBQTRCO0VBRTlCLGFBQWEsRUFBQTs7QUV4QmY7RUFFSSxVQUFVO0VBQ2QsUUFBUTtFQUNSLGtCQUFrQjtFQUNsQixRQUFRLEVBQUE7O0FDTFI7RUFFSSxXQUFVO0VBRVYsWUFBWTtFQUNaLGlDQUFvRDtFQUVwRCxrQ0FBcUQsRUFBQSIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
