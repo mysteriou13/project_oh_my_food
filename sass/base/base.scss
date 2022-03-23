@@ -26,3 +26,24 @@ body{
   
   
   }
+
+
+
+  .fa-heart {
+    font-size: 2em;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    color: white;
+    transition: color 2s ease-out;
+  
+  &:hover {
+
+    background:-webkit-linear-gradient(top, $purple 30%, $pink 70%);
+        background-clip:text;
+        -webkit-background-clip:text;
+        color:transparent;
+  
+    cursor: pointer;
+  }
+
+  }  
