@@ -46,4 +46,100 @@ body{
     cursor: pointer;
   }
 
-  }  
+
+  }
+  
+  
+  .box_restaurant_text{
+
+    display: flex;
+justify-content: space-between;
+
+  }
+
+
+
+  .button_explore {
+    position: relative;
+    top: 18%;
+    left: 24%;
+    height: 57px;
+    padding: 1%;
+    border: none;
+    border-top-left-radius: 23px;
+    border-bottom-left-radius: 23px;
+    border-bottom-right-radius: 23px;
+    border-top-right-radius: 23px;
+    color: white;
+    font-size: 1.2em;
+    background: linear-gradient(to bottom right, $pink, $purple);
+  }
+
+
+
+  .el_nav_menu {
+    background-color: $grey_div;
+    height: 85px;
+    width: 97%;
+    display: flex;
+    border-radius: 23px;
+    margin-bottom: 7%;
+
+    &:hover{
+
+      background-color: $purle_light;
+        
+
+    }
+
+  }
+  
+
+  .circle_nav {
+    height: 20px;
+    width: 20px;
+    background-color: $purple;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    position: relative;
+    left: -14px;
+    top: 10px;
+    padding: 4%;
+  }
+
+
+  .box_menu{
+    
+display: flex;
+width: 72%;
+justify-content: space-between;
+margin-left: 7%;
+height: 36px;
+position: relative;
+top: 21%;
+
+  }
+
+  .double_icone{
+
+    display: flex;
+
+  }
+
+  .font_size_icone{
+
+    font-size: 30px;
+
+  }
+
+  .text_icone{
+
+    position: relative;
+top: 19%;
+
+
+  }
+
+
+  

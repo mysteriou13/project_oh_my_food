@@ -23,6 +23,66 @@ footer {
     color: transparent;
     cursor: pointer; }
 
+.box_restaurant_text {
+  display: flex;
+  justify-content: space-between; }
+
+.button_explore {
+  position: relative;
+  top: 18%;
+  left: 24%;
+  height: 57px;
+  padding: 1%;
+  border: none;
+  border-top-left-radius: 23px;
+  border-bottom-left-radius: 23px;
+  border-bottom-right-radius: 23px;
+  border-top-right-radius: 23px;
+  color: white;
+  font-size: 1.2em;
+  background: linear-gradient(to bottom right, #FF79DA, #9356DC); }
+
+.el_nav_menu {
+  background-color: #f6f6f6;
+  height: 85px;
+  width: 97%;
+  display: flex;
+  border-radius: 10%;
+  margin-bottom: 7%; }
+  .el_nav_menu:hover {
+    background-color: #f5edff; }
+
+.circle_nav {
+  height: 20px;
+  width: 20px;
+  background-color: #9356DC;
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  position: relative;
+  left: -14px;
+  top: 10px;
+  padding: 4%; }
+
+.box_menu {
+  display: flex;
+  width: 72%;
+  justify-content: space-between;
+  margin-left: 7%;
+  height: 36px;
+  position: relative;
+  top: 21%; }
+
+.double_icone {
+  display: flex; }
+
+.font_size_icone {
+  font-size: 30px; }
+
+.text_icone {
+  position: relative;
+  top: 19%; }
+
 .flex_box_image {
   width: 95%;
   left: 2%;
@@ -36,9 +96,11 @@ footer {
   border-top-right-radius: 25px 37px; }
 
 .input_search {
-  background-color: #eaeaea;
+  background-color: #f6f6f6;
   border: none;
-  box-shadow: inset 0em 1em #dcdcdc;
-  width: 100%; }
+  padding-top: 2%;
+  padding-bottom: 2%;
+  width: 100%;
+  text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
