@@ -93,11 +93,18 @@ justify-content: space-between;
     }
 
   }
-  
+
+  .numbre_cicle{
+
+    position: absolute;
+    top: 8px;
+    left: 14px;
+    
+  }
 
   .circle_nav {
-    height: 20px;
-    width: 20px;
+    height: 1px;
+    width: 1px;
     background-color: $purple;
     border-radius: 50%;
     color: white;

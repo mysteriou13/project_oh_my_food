@@ -52,9 +52,14 @@ footer {
   .el_nav_menu:hover {
     background-color: #f5edff; }
 
+.numbre_cicle {
+  position: absolute;
+  top: 8px;
+  left: 14px; }
+
 .circle_nav {
-  height: 20px;
-  width: 20px;
+  height: 1px;
+  width: 1px;
   background-color: #9356DC;
   border-radius: 50%;
   color: white;
