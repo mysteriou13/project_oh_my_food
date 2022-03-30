@@ -47,7 +47,7 @@ footer {
   height: 85px;
   width: 97%;
   display: flex;
-  border-radius: 10%;
+  border-radius: 23px;
   margin-bottom: 7%; }
   .el_nav_menu:hover {
     background-color: #f5edff; }
@@ -84,6 +84,7 @@ footer {
   top: 19%; }
 
 .flex_box_image {
+  background-color: #ffffff;
   width: 95%;
   left: 2%;
   position: relative;
@@ -102,5 +103,8 @@ footer {
   padding-bottom: 2%;
   width: 100%;
   text-align: center; }
+
+.box_restaurant {
+  background-color: #eaeaea; }
 
 /*# sourceMappingURL=style.css.map */
