@@ -44,18 +44,20 @@ footer {
 
 .el_nav_menu {
   background-color: #f6f6f6;
-  height: 85px;
-  width: 97%;
+  height: 7vh;
+  width: 93%;
   display: flex;
   border-radius: 23px;
-  margin-bottom: 7%; }
+  margin-bottom: 7%;
+  position: relative;
+  left: 4%; }
   .el_nav_menu:hover {
     background-color: #f5edff; }
 
 .numbre_cicle {
   position: absolute;
   top: 8px;
-  left: 14px; }
+  left: 37%; }
 
 .circle_nav {
   height: 1px;
@@ -66,7 +68,7 @@ footer {
   text-align: center;
   position: relative;
   left: -14px;
-  top: 10px;
+  top: 23%;
   padding: 4%; }
 
 .box_menu {

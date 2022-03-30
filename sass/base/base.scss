@@ -79,11 +79,13 @@ justify-content: space-between;
 
   .el_nav_menu {
     background-color: $grey_div;
-    height: 85px;
-    width: 97%;
+    height: 7vh;
+    width: 93%;
     display: flex;
     border-radius: 23px;
     margin-bottom: 7%;
+    position: relative;
+    left: 4%;
 
     &:hover{
 
@@ -98,8 +100,8 @@ justify-content: space-between;
 
     position: absolute;
     top: 8px;
-    left: 14px;
-    
+    left: 37%;
+
   }
 
   .circle_nav {
@@ -111,7 +113,7 @@ justify-content: space-between;
     text-align: center;
     position: relative;
     left: -14px;
-    top: 10px;
+    top: 23%;
     padding: 4%;
   }
 
