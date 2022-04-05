@@ -84,7 +84,10 @@ footer {
   display: flex; }
 
 .font_size_icone {
-  font-size: 30px; }
+  font-size: 139%;
+  color: grey;
+  position: relative;
+  top: 25%; }
 
 .text_icone {
   position: relative;
