@@ -57,7 +57,8 @@ footer {
 .numbre_cicle {
   position: absolute;
   top: 8px;
-  left: 37%; }
+  left: 33%;
+  font-size: 12px; }
 
 .circle_nav {
   height: 1px;
@@ -83,11 +84,16 @@ footer {
 .double_icone {
   display: flex; }
 
+.icone_titre {
+  width: 61%;
+  margin-top: 4%;
+  margin-bottom: 4%; }
+
 .font_size_icone {
   font-size: 139%;
   color: grey;
   position: relative;
-  top: 25%; }
+  top: 16%; }
 
 .text_icone {
   position: relative;
