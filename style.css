@@ -120,6 +120,12 @@ footer {
   padding-bottom: 4%;
   font-size: 137%; }
 
+.taille_coeur {
+  font-size: 1.5em;
+  position: relative;
+  top: 22%;
+  left: -95%; }
+
 .flex_box_image {
   width: 92%;
   position: relative;
