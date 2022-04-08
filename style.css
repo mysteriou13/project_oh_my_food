@@ -113,11 +113,9 @@ footer {
   top: 19%; }
 
 .flex_box_image {
-  background-color: #ffffff;
-  width: 95%;
-  left: 2%;
+  width: 92%;
   position: relative;
-  left: 2%;
+  left: 5%;
   border-top-left-radius: 25px 37px;
   border-top-right-radius: 25px 37px; }
 
@@ -136,10 +134,16 @@ footer {
   text-align: center; }
 
 .box_restaurant {
-  background-color: #eaeaea; }
+  background-color: #eaeaea;
+  width: 105%;
+  left: -13%;
+  position: relative;
+  left: -3%; }
 
 .box_image {
   height: 30vh;
-  border-bottom: 15px solid #eaeaea; }
+  border-bottom: 15px solid #eaeaea;
+  background-color: #ffffff;
+  border-radius: 29px; }
 
 /*# sourceMappingURL=style.css.map */
