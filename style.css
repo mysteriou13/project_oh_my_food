@@ -10,6 +10,9 @@ footer {
   justify-content: space-around;
   height: 100px; }
 
+a {
+  text-decoration: none; }
+
 .fa-heart {
   font-size: 2em;
   -webkit-text-stroke-width: 1px;
