@@ -67,6 +67,8 @@ a {
   margin-bottom: 7%;
   position: relative;
   left: 4%; }
+  .el_nav_menu:hover #icone_mobile {
+    color: #9356DC; }
 
 .el_nav_menu:hover {
   background-color: #f5edff; }
@@ -108,7 +110,6 @@ a {
 
 .font_size_icone {
   font-size: 139%;
-  color: grey;
   position: relative;
   top: 16%; }
 

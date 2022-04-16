@@ -113,6 +113,14 @@ justify-content: space-between;
     position: relative;
     left: 4%;
 
+    &:hover{
+
+      #icone_mobile{
+    
+        color:$purple;
+      }
+    
+    }
     
 
   }
@@ -157,6 +165,7 @@ position: relative;
 top: 21%;
 
 
+
   }
 
   .double_icone{
@@ -176,7 +185,6 @@ margin-bottom: 4%;
   .font_size_icone{
 
     font-size: 139%;
-    color:grey;
     position: relative;
     top: 16%;
     
