@@ -67,8 +67,9 @@ a {
   margin-bottom: 7%;
   position: relative;
   left: 4%; }
-  .el_nav_menu:hover {
-    background-color: #f5edff; }
+
+.el_nav_menu:hover {
+  background-color: #f5edff; }
 
 .numbre_cicle {
   position: absolute;
@@ -128,6 +129,9 @@ a {
   position: relative;
   top: 22%;
   left: -95%; }
+
+.text_box {
+  color: black; }
 
 .flex_box_image {
   width: 92%;

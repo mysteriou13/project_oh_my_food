@@ -113,13 +113,13 @@ justify-content: space-between;
     position: relative;
     left: 4%;
 
-    &:hover{
+    
 
-      background-color: $purle_light;
-        
+  }
+  .el_nav_menu:hover {
 
-    }
-
+    background-color: $purle_light;
+      
   }
 
   .numbre_cicle{
@@ -155,6 +155,7 @@ margin-left: 7%;
 height: 36px;
 position: relative;
 top: 21%;
+
 
   }
 
@@ -209,3 +210,8 @@ left: -95%;
 
 }
   
+.text_box{
+
+  color:black;
+
+}
