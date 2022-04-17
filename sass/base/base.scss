@@ -105,7 +105,7 @@ justify-content: space-between;
 
   .el_nav_menu {
     background-color: $grey_div;
-    height: 7vh;
+    height: 11vh;
     width: 93%;
     display: flex;
     border-radius: 23px;
@@ -124,6 +124,14 @@ justify-content: space-between;
     
 
   }
+
+
+  #icone_mobile{
+    
+    color:grey;
+  }
+
+
   .el_nav_menu:hover {
 
     background-color: $purle_light;
@@ -149,7 +157,7 @@ justify-content: space-between;
     text-align: center;
     position: relative;
     left: -14px;
-    top: 23%;
+    top: 32%;
     padding: 4%;
   }
 
@@ -172,6 +180,10 @@ top: 21%;
 
     display: flex;
 
+    position: relative;
+    top: 31%;
+
+
   }
 
   .icone_titre{
@@ -186,14 +198,14 @@ margin-bottom: 4%;
 
     font-size: 139%;
     position: relative;
-    top: 16%;
+    top: 33%;
     
   }
 
   .text_icone{
 
     position: relative;
-top: 19%;
+top: 27%;
 
 
   }
@@ -228,5 +240,24 @@ left: -95%;
   
   background: none;
   border: none;
+
+}
+
+.div_new{
+
+  background-color: #99e2d0;
+  color:$green_back;
+  position: absolute;
+  top: 4%;
+  left: 75%;
+  padding: 2%;
+  font-weight: bold;
+}
+
+.div_new2{
+  @extend .div_new;
+
+  position: absolute;
+  top: 53%;
 
 }

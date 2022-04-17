@@ -60,7 +60,7 @@ a {
 
 .el_nav_menu {
   background-color: #f6f6f6;
-  height: 7vh;
+  height: 11vh;
   width: 93%;
   display: flex;
   border-radius: 23px;
@@ -69,6 +69,9 @@ a {
   left: 4%; }
   .el_nav_menu:hover #icone_mobile {
     color: #9356DC; }
+
+#icone_mobile {
+  color: grey; }
 
 .el_nav_menu:hover {
   background-color: #f5edff; }
@@ -88,7 +91,7 @@ a {
   text-align: center;
   position: relative;
   left: -14px;
-  top: 23%;
+  top: 32%;
   padding: 4%; }
 
 .box_menu {
@@ -101,7 +104,9 @@ a {
   top: 21%; }
 
 .double_icone {
-  display: flex; }
+  display: flex;
+  position: relative;
+  top: 31%; }
 
 .icone_titre {
   width: 61%;
@@ -111,11 +116,11 @@ a {
 .font_size_icone {
   font-size: 139%;
   position: relative;
-  top: 16%; }
+  top: 33%; }
 
 .text_icone {
   position: relative;
-  top: 19%; }
+  top: 27%; }
 
 .titre_restaurant {
   font-weight: bold;
@@ -137,6 +142,19 @@ a {
 .input_search {
   background: none;
   border: none; }
+
+.div_new, .div_new2 {
+  background-color: #99e2d0;
+  color: #008766;
+  position: absolute;
+  top: 4%;
+  left: 75%;
+  padding: 2%;
+  font-weight: bold; }
+
+.div_new2 {
+  position: absolute;
+  top: 53%; }
 
 .flex_box_image {
   width: 92%;
