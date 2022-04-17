@@ -1,7 +1,6 @@
 {
   "name": "project_oh_my_food",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,6 +12,16 @@
     "postcss-cli": "^9.1.0"
   },
   "dependencies": {
+    "sass-autoprefixer": "^1.0.1",
     "sass-prefix-mixins": "^1.0.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mysteriou13/project_oh_my_food.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mysteriou13/project_oh_my_food/issues"
+  },
+  "homepage": "https://github.com/mysteriou13/project_oh_my_food#readme",
+  "description": ""
 }
