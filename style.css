@@ -9,8 +9,7 @@
  * @see https://www.sitepoint.com/building-linear-gradient-mixin-sass/
  */
 body {
-  background-color: #ffffff;
-  font-family: 'Roboto', sans-serif; }
+  background-color: #ffffff; }
 
 img {
   object-fit: cover; }
@@ -19,7 +18,7 @@ footer {
   background-color: #353535ff;
   color: white;
   justify-content: space-around;
-  height: 100px; }
+  padding-bottom: 6%; }
 
 a {
   text-decoration: none; }
@@ -50,7 +49,7 @@ a {
 .button_explore {
   position: relative;
   top: 18%;
-  left: 24%;
+  left: 18%;
   height: 57px;
   padding-left: 6%;
   padding-right: 6%;
@@ -65,6 +64,7 @@ a {
   margin-bottom: 10%; }
 
 .sous_titre {
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
   margin-bottom: 6%; }
 
@@ -142,7 +142,7 @@ a {
 .text_icone {
   position: relative;
   top: 27%;
-  left: -30%; }
+  left: -24%; }
 
 .div_titre {
   background-color: white; }
@@ -154,7 +154,7 @@ a {
 .titre_restaurant {
   font-weight: bold;
   position: relative;
-  left: 9%;
+  left: 21%;
   padding-top: 7%;
   padding-bottom: 4%;
   font-size: 171%; }
@@ -186,7 +186,14 @@ a {
   top: 57%; }
 
 .titre_footer {
-  font-family: 'Shrikhand', cursive; }
+  font-family: 'Shrikhand', cursive;
+  padding-left: 8%;
+  padding-bottom: 4%;
+  padding-top: 4%; }
+
+.div_footer {
+  margin-bottom: 4%;
+  margin-left: 8%; }
 
 .flex_box_image {
   width: 92%;
