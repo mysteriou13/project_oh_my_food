@@ -2,6 +2,11 @@ body{
 
 
     background-color:$backcolor;
+
+    font-family: 'Roboto', sans-serif;
+
+
+
   
   }
   
@@ -221,7 +226,8 @@ margin-bottom: 4%;
   .text_icone{
 
     position: relative;
-top: 27%;
+    top: 27%;
+    left: -30%;
 
 
   }
@@ -288,5 +294,12 @@ left: -95%;
 
   position: absolute;
   top: 57%;
+
+}
+
+
+.titre_footer{
+
+  font-family: 'Shrikhand', cursive;
 
 }
