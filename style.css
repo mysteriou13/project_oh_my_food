@@ -202,10 +202,8 @@ a {
   background-color: #f6f6f6;
   border: none;
   padding-top: 2%;
-  padding-bottom: 2%;
   width: 100%;
   text-align: center;
-  padding: 4%;
   box-shadow: inset -3px 20px 19px -12px #cfcfcf; }
 
 .box_restaurant {
@@ -228,5 +226,10 @@ a {
   top: -6vh;
   border-top-left-radius: 28px;
   border-top-right-radius: 28px; }
+
+.text_search {
+  position: relative;
+  left: 9%;
+  top: 11px; }
 
 /*# sourceMappingURL=style.css.map */
