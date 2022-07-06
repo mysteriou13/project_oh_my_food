@@ -12,6 +12,7 @@
     "postcss-cli": "^9.1.0"
   },
   "dependencies": {
+    "normalize.css": "^8.0.1",
     "sass-autoprefixer": "^1.0.1",
     "sass-prefix-mixins": "^1.0.2"
   },
