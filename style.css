@@ -63,7 +63,8 @@ a {
   font-size: 27px;
   margin-bottom: 11%;
   position: relative;
-  left: 6%; }
+  left: 6%;
+  margin-top: 8%; }
 
 .div_icone_titre {
   background-color: #ffffff; }
@@ -122,11 +123,6 @@ a {
 
 .font_size_icone {
   font-size: 139%; }
-
-.text_icone {
-  position: relative;
-  top: 27%;
-  left: -24%; }
 
 .div_titre {
   background-color: white; }
