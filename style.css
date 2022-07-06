@@ -113,9 +113,7 @@ a {
   top: 37%; }
 
 .double_icone {
-  display: flex;
-  position: relative;
-  top: 31%; }
+  display: flex; }
 
 .icone_titre {
   width: 61%;
