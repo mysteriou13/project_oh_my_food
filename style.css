@@ -146,7 +146,13 @@ a {
   left: -95%; }
 
 .text_box {
-  color: black; }
+  color: black;
+  position: relative;
+  left: 12%;
+  top: 29%; }
+
+.strong_text {
+  margin-bottom: 4%; }
 
 .input_search {
   background: none;
@@ -156,14 +162,14 @@ a {
   background-color: #99e2d0;
   color: #008766;
   position: absolute;
-  top: 7%;
-  left: 71%;
+  top: 2%;
+  left: 77%;
   padding: 2%;
   font-weight: bold; }
 
 .div_new2 {
   position: absolute;
-  top: 57%; }
+  top: 53%; }
 
 .titre_footer {
   font-family: 'Shrikhand', cursive;

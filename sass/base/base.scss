@@ -263,6 +263,16 @@ left: -95%;
 
   color:black;
 
+  position: relative;
+left: 12%;
+top: 29%;
+
+}
+
+.strong_text{
+
+  margin-bottom: 4%;
+
 }
 
 .input_search{
@@ -277,8 +287,8 @@ left: -95%;
   background-color: #99e2d0;
   color:$green_back;
   position: absolute;
-  top: 7%;
-  left: 71%;
+  top: 2%;
+  left: 77%;
   padding: 2%;
   font-weight: bold;
 }
@@ -287,7 +297,7 @@ left: -95%;
   @extend .div_new;
 
   position: absolute;
-  top: 57%;
+  top: 53%;
 
 }
 
