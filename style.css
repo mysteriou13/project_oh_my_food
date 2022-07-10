@@ -188,6 +188,11 @@ a {
 .flech_home {
   color: black; }
 
+.bordure_plat_titre {
+  background-color: #99e2d0;
+  height: 4px;
+  width: 31px; }
+
 .input_search {
   background: none;
   border: none; }
