@@ -5,6 +5,11 @@
 
 }
 
+@mixin  Shrikhand{
+
+ font-family: 'Shrikhand', cursive;
+
+}
 
 body{
 
@@ -303,6 +308,24 @@ left: 20%;
   top: 9%;
   left: 104%;
   font-size: 177%;
+
+}
+
+.titre_menu{
+
+  display: flex;
+justify-content: space-between;
+width: 90%;
+position: relative;
+left: 4%;
+
+}
+
+.name_menu{
+
+  @include Shrikhand;
+
+font-size: 180%;
 
 }
 
