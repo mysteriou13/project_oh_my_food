@@ -193,6 +193,24 @@ a {
   height: 4px;
   width: 31px; }
 
+.card_plat {
+  background-color: white;
+  margin-bottom: 2%;
+  box-shadow: 1px 0px 5px grey;
+  border-radius: 8px;
+  padding-top: 4%;
+  padding-left: 4%;
+  padding-bottom: 2%; }
+
+.box_plat_el {
+  display: flex;
+  width: 97%;
+  justify-content: space-between; }
+
+.box_titre {
+  margin-bottom: 5%;
+  margin-top: 6%; }
+
 .input_search {
   background: none;
   border: none; }
