@@ -14,11 +14,13 @@ a {
   text-decoration: none; }
 
 .fa-heart {
-  font-size: 2em;
+  font-size: 1em;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
   color: white;
-  transition: color 2s ease-out; }
+  transition: color 2s ease-out;
+  position: relative;
+  top: 27%; }
   .fa-heart:hover {
     background: -webkit-linear-gradient(top, #9356DC 30%, #FF79DA 70%);
     background-clip: text;

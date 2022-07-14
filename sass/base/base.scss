@@ -1,16 +1,4 @@
 
-@mixin roboto {
-
-  font-family: 'Roboto', sans-serif;
-
-}
-
-@mixin  Shrikhand{
-
- font-family: 'Shrikhand', cursive;
-
-}
-
 body{
 
 
@@ -46,12 +34,15 @@ body{
 
 
   .fa-heart {
-    font-size: 2em;
+    font-size: 1em;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
     color: white;
     transition: color 2s ease-out;
   
+    position: relative;
+    top:27%;
+
   &:hover {
 
     background:-webkit-linear-gradient(top, $purple 30%, $pink 70%);
@@ -61,7 +52,6 @@ body{
   
     cursor: pointer;
   }
-
 
   }
   
@@ -142,7 +132,7 @@ justify-content: space-between;
     position: relative;
     left: 4%;
     
-    box-shadow: 0px 7px 9px #e6e6e6;
+    box-shadow: 0px 7px 9px $shadow_nav_menu;
 
     &:hover{
 
@@ -381,7 +371,7 @@ padding-bottom: 2%;
 
 .div_new{
 
-  background-color: #99e2d0;
+  background-color: $green;
   color:$green_back;
   position: absolute;
   top: 2%;
@@ -401,8 +391,7 @@ padding-bottom: 2%;
 
 .titre_footer{
 
-  font-family: 'Shrikhand', cursive;
-
+@include Shrikhand;
   padding-left: 8%;
   padding-bottom: 4%;
   padding-top: 4%;
