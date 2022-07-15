@@ -87,6 +87,12 @@ a {
 #icone_mobile {
   color: grey; }
 
+.taille_image_acceuil {
+  width: 100%;
+  height: 22vh;
+  border-top-left-radius: 11px 21px;
+  border-top-right-radius: 11px 21px; }
+
 .el_nav_menu:hover {
   background-color: #f5edff; }
 
