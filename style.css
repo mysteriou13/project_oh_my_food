@@ -38,7 +38,7 @@ a {
   position: relative;
   left: -2%; }
 
-.button_explore {
+.button_explore, .btn_commander {
   position: relative;
   top: 18%;
   left: 18%;
@@ -54,6 +54,10 @@ a {
   font-size: 1.2em;
   background: linear-gradient(to bottom right, #FF79DA, #9356DC);
   margin-bottom: 10%; }
+
+.btn_commander {
+  width: 52%;
+  height: 46px; }
 
 .sous_titre {
   font-family: 'Roboto', sans-serif;
@@ -208,7 +212,8 @@ a {
   border-radius: 8px;
   padding-top: 4%;
   padding-left: 4%;
-  padding-bottom: 2%; }
+  padding-bottom: 2%;
+  margin-bottom: 4%; }
 
 .box_plat_el {
   display: flex;

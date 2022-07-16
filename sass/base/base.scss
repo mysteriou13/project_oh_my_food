@@ -94,6 +94,13 @@ justify-content: space-between;
 
   }
 
+  .btn_commander{
+
+    @extend .button_explore;
+    width: 52%;
+    height: 46px;
+  }
+
   .sous_titre{
 
     @include roboto;
