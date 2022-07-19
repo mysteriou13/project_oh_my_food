@@ -209,11 +209,36 @@ a {
   background-color: white;
   margin-bottom: 2%;
   box-shadow: 1px 0px 5px grey;
-  border-radius: 8px;
-  padding-top: 4%;
-  padding-left: 4%;
-  padding-bottom: 2%;
-  margin-bottom: 4%; }
+  border-radius: 8px; }
+  .card_plat:hover .validator {
+    display: block;
+    background-color: #99e2d0;
+    height: 9vh;
+    width: 10vh; }
+  .card_plat:hover .box_card {
+    display: flex; }
+  .card_plat:hover .box_text {
+    width: 85%; }
+  .card_plat:hover .check_valide {
+    color: #99e2d0;
+    position: relative;
+    top: 14%;
+    left: 14%; }
+  .card_plat:hover .box_card_check {
+    background-color: white;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 30%;
+    left: 34%;
+    cursor: pointer; }
+
+.box_text {
+  width: auto; }
+
+.validator {
+  display: none; }
 
 .box_plat_el {
   display: flex;

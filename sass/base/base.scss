@@ -360,11 +360,73 @@ width: 31px;
   box-shadow: 1px 0px 5px grey;
   border-radius: 8px;
 
-  padding-top: 4%;
-padding-left: 4%;
-padding-bottom: 2%;
-margin-bottom: 4%;
+&:hover{
 
+  .validator{
+
+  display: block;
+
+  background-color: $green; 
+    height: 9vh;
+    width: 10vh;
+  }
+
+  .box_card{
+    display: flex;
+  }
+
+  .box_text{
+
+    width: 85%;
+  
+  }
+
+  .check_valide{
+
+    color: $green;
+
+
+    position: relative;
+    top: 14%;
+    left: 14%;
+
+
+  }
+
+  .box_card_check{
+
+    background-color: white;
+
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+
+    position: relative;
+    top: 30%;
+    left: 34%;
+
+    cursor: pointer;
+
+}
+
+  
+
+}
+
+
+}
+
+
+.box_text{
+
+  width: auto;
+
+}
+
+.validator{
+
+  display:none;
+  
 }
 
 .box_plat_el{
