@@ -209,12 +209,16 @@ a {
   background-color: white;
   margin-bottom: 2%;
   box-shadow: 1px 0px 5px grey;
-  border-radius: 8px; }
+  border-radius: 8px;
+  height: 10vh; }
   .card_plat:hover .validator {
     display: block;
     background-color: #99e2d0;
-    height: 9vh;
-    width: 10vh; }
+    width: 10vh;
+    height: 10vh;
+    border: 3px #99e2d0;
+    border-top-right-radius: 12%;
+    border-bottom-right-radius: 12%; }
   .card_plat:hover .box_card {
     display: flex; }
   .card_plat:hover .box_text {
@@ -314,7 +318,6 @@ a {
   background-color: #f6f6f6;
   padding-top: 11%;
   position: relative;
-  top: -6vh;
   border-top-left-radius: 28px;
   border-top-right-radius: 28px; }
 

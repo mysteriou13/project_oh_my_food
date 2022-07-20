@@ -360,6 +360,8 @@ width: 31px;
   box-shadow: 1px 0px 5px grey;
   border-radius: 8px;
 
+  height: 10vh;
+
 &:hover{
 
   .validator{
@@ -367,9 +369,15 @@ width: 31px;
   display: block;
 
   background-color: $green; 
-    height: 9vh;
     width: 10vh;
-  }
+  height: 10vh;
+border: 3px $green;
+
+border-top-right-radius: 12%;
+border-bottom-right-radius: 12%;
+
+}
+
 
   .box_card{
     display: flex;
@@ -414,6 +422,11 @@ width: 31px;
 }
 
 
+}
+
+.section_menu{
+
+  
 }
 
 
