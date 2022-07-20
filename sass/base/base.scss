@@ -417,6 +417,14 @@ border-bottom-right-radius: 12%;
 
 }
 
+
+.cut{
+
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+
+}
   
 
 }
@@ -426,7 +434,7 @@ border-bottom-right-radius: 12%;
 
 .section_menu{
 
-  
+
 }
 
 

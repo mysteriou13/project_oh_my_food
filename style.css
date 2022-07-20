@@ -237,6 +237,10 @@ a {
     top: 30%;
     left: 34%;
     cursor: pointer; }
+  .card_plat:hover .cut {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; }
 
 .box_text {
   width: auto; }
