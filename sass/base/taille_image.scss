@@ -1,7 +1,18 @@
 .taille_image{
 
     width:100%;
+
+    @media  screen and (min-width:$width_mobile) {
+
     height: 29vh;
+
+    }
+
+    @media  screen and (min-width:$width_desktop) {
+        
+        height: 50vh;
+
+    }
 
     border-top-left-radius: $radius-image $radius-image2;
 

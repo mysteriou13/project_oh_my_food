@@ -1,7 +1,12 @@
 .box_plat{
 
     background-color: $grey_div;
-padding-top: 11%;
+
+    @media screen  and (max-width:$width_mobile) {
+        
+        padding-top: 11%;
+    
+}
 position: relative;
 
 border-top-left-radius: 28px;

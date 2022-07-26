@@ -20,7 +20,8 @@ a {
   color: white;
   transition: color 2s ease-out;
   position: relative;
-  top: 27%; }
+  top: 27%;
+  font-size: 2em; }
   .fa-heart:hover {
     background: -webkit-linear-gradient(top, #9356DC 30%, #FF79DA 70%);
     background-clip: text;
@@ -56,8 +57,15 @@ a {
   margin-bottom: 10%; }
 
 .btn_commander {
-  width: 52%;
   height: 46px; }
+  @media screen and (max-width: 700px) {
+    .btn_commander {
+      width: 52%; } }
+  @media screen and (min-width: 1000px) {
+    .btn_commander {
+      position: relative;
+      top: 89px;
+      left: 783px; } }
 
 .sous_titre {
   font-family: 'Roboto', sans-serif;
@@ -166,23 +174,24 @@ a {
   margin-bottom: 4%; }
 
 .logo_page {
-  width: 59%;
-  position: relative;
-  left: 20%; }
+  width: 59%; }
 
-.width_image_logo {
-  width: 100%; }
+@media screen and (max-width: 700px) {
+  .width_image_logo {
+    width: 100%; } }
 
 .box_logo {
   display: flex;
-  margin-top: 9%;
-  margin-bottom: 2%; }
+  justify-content: space-around; }
+  @media screen and (max-width: 700px) {
+    .box_logo {
+      margin-top: 9%;
+      margin-bottom: 2%; } }
 
 .flech_left {
   width: 6%;
   position: relative;
   top: 9%;
-  left: 104%;
   font-size: 177%; }
 
 .titre_menu {
@@ -191,6 +200,9 @@ a {
   width: 90%;
   position: relative;
   left: 4%; }
+  @media screen and (min-width: 1000px) {
+    .titre_menu {
+      justify-content: space-evenly; } }
 
 .name_menu {
   font-family: 'Shrikhand', cursive;
@@ -294,42 +306,52 @@ a {
     opacity: 1; }
   100% {
     opacity: 1; } }
+@media screen and (min-width: 1000px) {
+  .section_menu {
+    display: flex;
+    justify-content: space-evenly; } }
+
 .card_plat {
   background-color: white;
   margin-bottom: 2%;
   box-shadow: 1px 0px 5px grey;
   border-radius: 8px;
   height: 10vh; }
-  .card_plat:hover .validator {
-    display: block;
-    background-color: #99e2d0;
-    width: 10vh;
-    height: 10vh;
-    border: 3px #99e2d0;
-    border-top-right-radius: 12%;
-    border-bottom-right-radius: 12%; }
-  .card_plat:hover .box_card {
-    display: flex; }
-  .card_plat:hover .box_text {
-    width: 85%; }
-  .card_plat:hover .check_valide {
-    color: #99e2d0;
-    position: relative;
-    top: 14%;
-    left: 14%; }
-  .card_plat:hover .box_card_check {
-    background-color: white;
-    border-radius: 100%;
-    width: 20px;
-    height: 20px;
-    position: relative;
-    top: 30%;
-    left: 34%;
+  @media screen and (min-width: 1000px) {
+    .card_plat {
+      width: 43vh; } }
+  .card_plat:hover {
     cursor: pointer; }
-  .card_plat:hover .cut {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis; }
+    .card_plat:hover .validator {
+      display: block;
+      background-color: #99e2d0;
+      width: 26%;
+      height: 10vh;
+      border: 3px #99e2d0;
+      border-top-right-radius: 10%;
+      border-bottom-right-radius: 10%; }
+    .card_plat:hover .box_card {
+      display: flex; }
+    .card_plat:hover .box_text {
+      width: 85%; }
+    .card_plat:hover .check_valide {
+      color: #99e2d0;
+      position: relative;
+      top: 14%;
+      left: 14%; }
+    .card_plat:hover .box_card_check {
+      background-color: white;
+      border-radius: 100%;
+      width: 20px;
+      height: 20px;
+      position: relative;
+      top: 30%;
+      left: 34%;
+      cursor: pointer; }
+    .card_plat:hover .cut {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis; }
 
 .box_text {
   width: auto; }
@@ -382,9 +404,14 @@ a {
 
 .taille_image {
   width: 100%;
-  height: 29vh;
   border-top-left-radius: 11px 21px;
   border-top-right-radius: 11px 21px; }
+  @media screen and (min-width: 700px) {
+    .taille_image {
+      height: 29vh; } }
+  @media screen and (min-width: 1000px) {
+    .taille_image {
+      height: 50vh; } }
 
 .div_search {
   background-color: #f6f6f6;
@@ -409,10 +436,12 @@ a {
 
 .box_plat {
   background-color: #f6f6f6;
-  padding-top: 11%;
   position: relative;
   border-top-left-radius: 28px;
   border-top-right-radius: 28px; }
+  @media screen and (max-width: 700px) {
+    .box_plat {
+      padding-top: 11%; } }
 
 .text_search {
   position: relative;

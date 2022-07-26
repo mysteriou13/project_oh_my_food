@@ -43,6 +43,9 @@ body{
     position: relative;
     top:27%;
 
+    font-size: 2em;
+  
+
   &:hover {
 
     background:-webkit-linear-gradient(top, $purple 30%, $pink 70%);
@@ -97,9 +100,26 @@ justify-content: space-between;
   .btn_commander{
 
     @extend .button_explore;
+
+    @media  screen and(max-width:$width_mobile) {
+      
+    
     width: 52%;
-    height: 46px;
+    
   }
+
+    height: 46px;
+
+    @media  screen and (min-width:$width_desktop){
+
+      position: relative;
+      top: 89px;
+      left: 783px;
+  }
+      
+    }
+
+  
 
   .sous_titre{
 
@@ -113,7 +133,7 @@ justify-content: space-between;
   .text_fonctionement{
 
 
-    
+
     font-weight: bold;
     font-size: 27px;
     margin-bottom: 11%;
@@ -292,22 +312,33 @@ top: 29%;
 .logo_page{
 
   width: 59%;
-position: relative;
-left: 20%;
+
 
 }
 
 .width_image_logo{
 
+  @media screen  and(max-width:$width_mobile) {
+    
+  
   width:100%;
+  
+}
 
 }
 
 .box_logo{
   
   display: flex;
+ 
+  justify-content: space-around;
+
+  @media screen  and(max-width:$width_mobile) {
+    
   margin-top: 9%;
   margin-bottom: 2%;
+  
+}
 
 }
 
@@ -315,7 +346,7 @@ left: 20%;
   width: 6%;
   position: relative;
   top: 9%;
-  left: 104%;
+  
   font-size: 177%;
 
 }
@@ -327,6 +358,12 @@ justify-content: space-between;
 width: 90%;
 position: relative;
 left: 4%;
+
+@media screen and (min-width: $width_desktop) {
+
+  justify-content: space-evenly;
+
+}
 
 }
 
@@ -370,6 +407,17 @@ width: 31px;
 }
 
 
+.section_menu{
+
+  @media screen and (min-width: $width_desktop) {
+ 
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+}
+
 
 .card_plat{
 
@@ -380,19 +428,28 @@ width: 31px;
 
   height: 10vh;
 
+
+  @media screen and (min-width: $width_desktop) {
+
+    width: 43vh;
+
+  }
+
 &:hover{
+
+  cursor: pointer;
 
   .validator{
 
   display: block;
 
   background-color: $green; 
-    width: 10vh;
+  width: 26%;
   height: 10vh;
 border: 3px $green;
 
-border-top-right-radius: 12%;
-border-bottom-right-radius: 12%;
+border-top-right-radius: 10%;
+border-bottom-right-radius: 10%;
 
 }
 
@@ -449,12 +506,6 @@ border-bottom-right-radius: 12%;
 
 
 }
-
-.section_menu{
-
-
-}
-
 
 .box_text{
 

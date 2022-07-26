@@ -1,0 +1,11 @@
+
+
+@mixin desktop ($width) {
+
+
+    @media screen and (min-width: $width) {
+        width: 668px;
+    }
+
+}
+
