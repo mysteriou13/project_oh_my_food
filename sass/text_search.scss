@@ -1,7 +1,15 @@
 .text_search{
 
     position: relative;
+
+    top: 11px;
+    
+
+@media screen  and (max-width:$width_mobile){
+    
 left: 9%;
-top: 11px;
+
+}
+
 
 }
