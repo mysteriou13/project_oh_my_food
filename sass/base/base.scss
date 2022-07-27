@@ -77,8 +77,22 @@ justify-content: space-between;
 
   .button_explore {
     position: relative;
-    top: 18%;
-    left: 18%;
+
+
+    @media  screen and(max-width:$width_mobile) {
+  
+      top: 24px;
+      left: 15%;
+    
+  }
+
+    @media  screen and(min-width:$width_desktop) {
+
+      top: 36px;
+      left: 37%;
+
+    }
+
     height: 57px;
 
     padding-left: 6%;
@@ -86,10 +100,10 @@ justify-content: space-between;
 
     
     border: none;
-    border-top-left-radius: 23px;
-    border-bottom-left-radius: 23px;
-    border-bottom-right-radius: 23px;
-    border-top-right-radius: 23px;
+    border-top-left-radius: 26px;
+    border-bottom-left-radius: 26px;
+    border-bottom-right-radius: 26px;
+    border-top-right-radius: 26px;
     color: white;
     font-size: 1.2em;
     background: linear-gradient(to bottom right, $pink, $purple);
@@ -269,19 +283,47 @@ margin-bottom: 4%;
   .soustitre{
 
     position: relative;
+
+    @media screen and (max-width:$width_mobile) {
+     
      left: 9%;
+
+    }
+
+
+    @media screen  and (min-width:$width_desktop) {
+
+    left: 1%;
+    
+    }
+
 
   }
 
   .titre_restaurant{
 
     font-weight: bold;
-    position: relative;
-    left: 12%;
+   
+   @media screen and (max-width:$width_mobile) {
+      
     padding-top: 7%;
     padding-bottom: 4%;
+
+    position: relative;
+    left: 12%;
+
+    }
+
     font-size: 171%;
     
+    @media screen  and (min-width:$width_desktop) {
+      
+      display: flex;
+      position: relative;
+    left: 36%;
+
+    }
+
   }
 
 .taille_coeur{
