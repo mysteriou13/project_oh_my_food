@@ -1,9 +1,17 @@
 
+html{
+
+  overflow-x: hidden;
+}
+
 body{
 
 
     background-color:$backcolor;
 
+    margin: 0; height: 100%;
+    
+    overflow-x: hidden;
   }
   
   img{
@@ -70,7 +78,19 @@ justify-content: space-between;
 
   background-color: $back_grey;
   width: 104%;
+  
+  @media screen  and(max-width:$width_mobile) {
+    
   height: 55vh;
+
+  } 
+  
+  @media screen  and(min-width:$width_desktop) {
+
+    height: 37vh;
+
+  }
+
   position: relative;
   left: -2%;
 
@@ -484,10 +504,12 @@ width: 31px;
 
   .validator{
 
+    
+
   display: block;
 
   background-color: $green; 
-  width: 26%;
+  width: $width-validator;
   height: 10vh;
 border: 3px $green;
 
@@ -503,7 +525,7 @@ border-bottom-right-radius: 10%;
 
   .box_text{
 
-    width: 85%;
+    width: $width_card;
   
   }
 

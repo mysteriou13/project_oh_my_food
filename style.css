@@ -1,5 +1,11 @@
+html {
+  overflow-x: hidden; }
+
 body {
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  margin: 0;
+  height: 100%;
+  overflow-x: hidden; }
 
 img {
   object-fit: cover; }
@@ -36,9 +42,14 @@ a {
 .div_header {
   background-color: #f6f6f6;
   width: 104%;
-  height: 55vh;
   position: relative;
   left: -2%; }
+  @media screen and (max-width: 700px) {
+    .div_header {
+      height: 55vh; } }
+  @media screen and (min-width: 1000px) {
+    .div_header {
+      height: 37vh; } }
 
 .button_explore, .btn_commander {
   position: relative;
@@ -344,7 +355,7 @@ a {
     .card_plat:hover .validator {
       display: block;
       background-color: #99e2d0;
-      width: 26%;
+      width: 18%;
       height: 10vh;
       border: 3px #99e2d0;
       border-top-right-radius: 10%;
@@ -352,7 +363,7 @@ a {
     .card_plat:hover .box_card {
       display: flex; }
     .card_plat:hover .box_text {
-      width: 85%; }
+      width: 82%; }
     .card_plat:hover .check_valide {
       color: #99e2d0;
       position: relative;
