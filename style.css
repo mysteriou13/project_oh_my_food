@@ -336,10 +336,14 @@ a {
     opacity: 1; }
   100% {
     opacity: 1; } }
-@media screen and (min-width: 1000px) {
-  .section_menu {
-    display: flex;
-    justify-content: space-evenly; } }
+.section_menu {
+  width: 95%;
+  position: relative;
+  left: 3%; }
+  @media screen and (min-width: 1000px) {
+    .section_menu {
+      display: flex;
+      justify-content: space-evenly; } }
 
 .card_plat {
   background-color: white;
