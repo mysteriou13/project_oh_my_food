@@ -471,10 +471,15 @@ width: 31px;
 
 
 .section_menu{
+ 
+  @media screen  and (max-width:$width_mobile) {
+    
   
   width: 95%;
   position: relative;
   left: 3%;
+  
+}
 
   @media screen and (min-width: $width_desktop) {
  
@@ -593,6 +598,8 @@ border-bottom-right-radius: 10%;
   display:flex;
    width: 97%;
    justify-content: space-between;
+  
+
 
 }
 
@@ -600,7 +607,14 @@ border-bottom-right-radius: 10%;
 
   margin-bottom: 5%;
   margin-top: 6%;
+
+  @media screen and (max-width:$width_mobile) {
   
+   position: relative;
+   left: 3%;
+  
+  }
+
 }
 
 
