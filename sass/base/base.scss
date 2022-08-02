@@ -498,7 +498,6 @@ width: 31px;
   box-shadow: 1px 0px 5px grey;
   border-radius: 8px;
 
-  height: 10vh;
 
 
   @media screen and (min-width: $width_desktop) {
@@ -519,7 +518,7 @@ width: 31px;
 
   background-color: $green; 
   width: $width-validator;
-  height: 10vh;
+
 border: 3px $green;
 
 border-top-right-radius: 10%;
@@ -583,14 +582,19 @@ border-bottom-right-radius: 10%;
 
 .box_text{
 
-  width: auto;
+  padding-top: 2%;
+  
+  padding-bottom: 5%;
+  padding-left: 3%;
 
+  
 }
 
 .validator{
 
   display:none;
-  
+
+
 }
 
 .box_plat_el{
