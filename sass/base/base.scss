@@ -37,6 +37,7 @@ body{
   a{
 
     text-decoration:none;
+    color:white;
 
   }
 
@@ -377,7 +378,8 @@ top: 29%;
 .logo_page{
 
   width: 59%;
-
+  position: relative;
+    right: 5%;
 
 }
 
@@ -496,7 +498,7 @@ width: 31px;
 .card_plat{
 
   background-color: white;
-  margin-bottom: 2%;
+  margin-bottom: 4%;
   box-shadow: 1px 0px 5px grey;
   border-radius: 8px;
 

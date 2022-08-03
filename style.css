@@ -17,7 +17,8 @@ footer {
   padding-bottom: 6%; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: white; }
 
 .fa-heart {
   font-size: 1em;
@@ -207,7 +208,9 @@ a {
   margin-bottom: 4%; }
 
 .logo_page {
-  width: 59%; }
+  width: 59%;
+  position: relative;
+  right: 5%; }
 
 @media screen and (max-width: 700px) {
   .width_image_logo {
@@ -351,7 +354,7 @@ a {
 
 .card_plat {
   background-color: white;
-  margin-bottom: 2%;
+  margin-bottom: 4%;
   box-shadow: 1px 0px 5px grey;
   border-radius: 8px; }
   @media screen and (min-width: 1000px) {
