@@ -137,7 +137,9 @@ justify-content: space-between;
     @extend .button_explore;
 
     @media  screen and(max-width:$width_mobile) {
-      
+      position: relative;
+      top: 15px;
+      left: 90px;
     
     width: 52%;
     
