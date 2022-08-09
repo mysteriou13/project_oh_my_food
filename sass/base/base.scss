@@ -244,11 +244,18 @@ justify-content: space-between;
 
   .numbre_cicle{
 
-    position: absolute;
-    top: 8px;
-    left: 33%;
+    position: relative;
+    top: -6px;
+    left: -2px;
 
     font-size: 12px;
+
+    @media screen and (min-width:$width_desktop) {
+      top: -15px;
+      left: -7px;
+
+      font-size: 28px;
+    }
 
   }
 
@@ -263,6 +270,16 @@ justify-content: space-between;
     left: -14px;
     top: 32%;
     padding: 4%;
+    
+    @media screen and (min-width:$width_desktop) {
+      
+      padding: 2%;
+
+      top:19%;
+
+      
+    }
+
   }
 
 

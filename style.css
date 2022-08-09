@@ -134,10 +134,15 @@ a {
   background-color: #f5edff; }
 
 .numbre_cicle {
-  position: absolute;
-  top: 8px;
-  left: 33%;
+  position: relative;
+  top: -6px;
+  left: -2px;
   font-size: 12px; }
+  @media screen and (min-width: 1000px) {
+    .numbre_cicle {
+      top: -15px;
+      left: -7px;
+      font-size: 28px; } }
 
 .circle_nav {
   height: 1px;
@@ -150,6 +155,10 @@ a {
   left: -14px;
   top: 32%;
   padding: 4%; }
+  @media screen and (min-width: 1000px) {
+    .circle_nav {
+      padding: 2%;
+      top: 19%; } }
 
 .box_menu {
   display: flex;
