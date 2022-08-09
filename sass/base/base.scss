@@ -118,6 +118,7 @@ justify-content: space-between;
 
       top: 36px;
       left: 37%;
+      
 
     }
 
@@ -184,6 +185,15 @@ justify-content: space-between;
     position: relative;
     left: 6%;
     margin-top: 8%;
+
+    @media screen and (min-width:$width_desktop) {
+    
+      margin-top: 2%;
+
+      margin-bottom: 2%;
+
+    }
+
   
   }
 
@@ -666,6 +676,12 @@ border-bottom-right-radius: 10%;
   left: 77%;
   padding: 2%;
   font-weight: bold;
+
+  @media screen  and (min-width:$width_desktop) {
+    
+    left: 92%;
+
+  }
 }
 
 .div_new2{

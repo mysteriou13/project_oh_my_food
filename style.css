@@ -104,6 +104,10 @@ a {
   position: relative;
   left: 6%;
   margin-top: 8%; }
+  @media screen and (min-width: 1000px) {
+    .text_fonctionement {
+      margin-top: 2%;
+      margin-bottom: 2%; } }
 
 .div_icone_titre {
   background-color: #ffffff; }
@@ -438,6 +442,9 @@ a {
   left: 77%;
   padding: 2%;
   font-weight: bold; }
+  @media screen and (min-width: 1000px) {
+    .div_new, .div_new2 {
+      left: 92%; } }
 
 .div_new2 {
   position: absolute;
