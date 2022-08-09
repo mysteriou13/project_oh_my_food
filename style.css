@@ -20,6 +20,10 @@ a {
   text-decoration: none;
   color: white; }
 
+.link_fleche {
+  position: relative;
+  left: -3%; }
+
 .fa-heart {
   font-size: 1em;
   -webkit-text-stroke-width: 1px;
@@ -486,7 +490,9 @@ a {
   border-top-right-radius: 28px; }
   @media screen and (max-width: 700px) {
     .box_plat {
-      padding-top: 11%; } }
+      padding-top: 11%;
+      position: relative;
+      top: -30px; } }
 
 .text_search {
   position: relative;
