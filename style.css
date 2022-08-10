@@ -153,6 +153,11 @@ a {
       top: -1px;
       left: -1px;
       font-size: 28px; } }
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    .numbre_cicle {
+      top: -18px;
+      left: -8px;
+      font-size: 38px; } }
 
 .circle_nav {
   height: 1px;
@@ -178,6 +183,9 @@ a {
   justify-content: space-evenly;
   position: relative;
   top: 37%; }
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    .box_menu {
+      font-size: 26px; } }
 
 .double_icone {
   display: flex; }
@@ -248,7 +256,11 @@ a {
   color: black;
   position: relative;
   left: 12%;
-  top: 29%; }
+  top: 8%; }
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    .text_box {
+      font-size: 26px;
+      top: 10%; } }
 
 .strong_text {
   margin-bottom: 4%; }
