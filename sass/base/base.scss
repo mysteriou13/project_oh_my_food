@@ -287,6 +287,14 @@ justify-content: space-between;
       font-size: 28px;
     }
 
+    @media screen  and (min-width:$min-width-tab) and (max-width:$max-width-tab){
+      
+      top: -18px;
+    left: -8px;
+    font-size: 38px;
+
+    }
+
   }
 
   .circle_nav {
@@ -327,9 +335,15 @@ justify-content:  space-evenly;
 position: relative;
 top: 37%;
 
+@media screen  and (min-width:$min-width-tab) and (max-width:$max-width-tab){
+
+  font-size: 26px;
+}
+
+}
 
 
-  }
+
 
   .double_icone{
 
