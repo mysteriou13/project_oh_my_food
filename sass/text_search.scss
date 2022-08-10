@@ -1,15 +1,19 @@
 .text_search{
 
+
+      @media screen and (min-width:$width_desktop) {
+        
+      
     position: relative;
 
     top: 11px;
     
+      }
 
-@media screen  and (max-width:$width_mobile){
-    
+
+
 left: 9%;
 
-}
 
 
 }

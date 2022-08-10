@@ -2,17 +2,21 @@
 
     background-color: $grey_div;
 
-    @media screen  and (max-width:$width_mobile) {
-        
+
         padding-top: 11%;
 
         position: relative;
     top: -30px;
-    
-}
+   
+
+
+@media screen  and (min-width:$width_desktop) {
+        
 position: relative;
 
 border-top-left-radius: 28px;
 border-top-right-radius: 28px;
+
+}
 
 }

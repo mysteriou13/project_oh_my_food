@@ -90,16 +90,22 @@ justify-content: space-between;
 
   background-color: $back_grey;
   width: 104%;
-  
-  @media screen  and(max-width:$width_mobile) {
+
     
   height: 55vh;
 
-  } 
+  @media screen  and (min-width:$min-width-tab) and (max-width: $max-width-tab){
+    
+    height: 100%;
+
+
+  }
+
+   
   
   @media screen  and(min-width:$width_desktop) {
 
-    height: 37vh;
+    height: 41vh;
 
   }
 
@@ -109,21 +115,25 @@ justify-content: space-between;
 }
 
   .button_explore {
-    position: relative;
-
-
-    @media  screen and(max-width:$width_mobile) {
-  
+    position: relative;  
       top: 34px;
       left: 15%;
     
-  }
+
 
     @media  screen and(min-width:$width_desktop) {
 
-      top: 36px;
+     
       left: 37%;
+
+      margin-bottom: 0%;
       
+
+    }
+
+    @media screen  and (min-width:$min-width-tab) and (max-width: $max-width-tab){
+
+      left:31%;
 
     }
 
@@ -149,14 +159,14 @@ justify-content: space-between;
 
     @extend .button_explore;
 
-    @media  screen and(max-width:$width_mobile) {
+
       position: relative;
       top: 15px;
       left: 90px;
     
     width: 52%;
     
-  }
+  
 
     height: 46px;
 
@@ -354,11 +364,14 @@ margin-bottom: 4%;
 
     position: relative;
 
-    @media screen and (max-width:$width_mobile) {
-     
+   
      left: 9%;
 
-    }
+     @media screen and (min-width:$min-width-tab) and (max-width:$max-width-tab){
+
+      left: 0%;
+
+     }
 
 
     @media screen  and (min-width:$width_desktop) {
@@ -374,23 +387,31 @@ margin-bottom: 4%;
 
     font-weight: bold;
    
-   @media screen and (max-width:$width_mobile) {
-      
     padding-top: 7%;
     padding-bottom: 4%;
 
     position: relative;
     left: 12%;
 
-    }
-
     font-size: 171%;
+
+    display: flex;
+    flex-direction: column;
     
     @media screen  and (min-width:$width_desktop) {
       
-      display: flex;
+  display: block;
       position: relative;
     left: 36%;
+
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+    }
+
+    @media screen and (min-width:$min-width-tab) and (max-width:$max-width-tab){
+      display: block;
+      left: 24%;
 
     }
 
@@ -457,12 +478,12 @@ top: 29%;
 
 .width_image_logo{
 
-  @media screen  and(max-width:$width_mobile) {
+
     
   
   width:100%;
   
-}
+
 
 }
 
@@ -555,14 +576,13 @@ width: 31px;
 
 .section_menu{
  
-  @media screen  and (max-width:$width_mobile) {
+
     
   
   width: 95%;
   position: relative;
   left: 3%;
-  
-}
+
 
   @media screen and (min-width: $width_desktop) {
  
@@ -695,12 +715,12 @@ border-bottom-right-radius: 10%;
   margin-bottom: 5%;
   margin-top: 6%;
 
-  @media screen and (max-width:$width_mobile) {
+
   
    position: relative;
    left: 3%;
   
-  }
+  
 
 }
 
