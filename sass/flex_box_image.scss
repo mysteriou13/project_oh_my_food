@@ -10,4 +10,9 @@
 border-top-left-radius: 25px 37px;
 border-top-right-radius: 25px 37px;
 
+@media screen and (min-width:$width_desktop) {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 }

@@ -5,4 +5,10 @@
     background-color:$backcolor;
     border-radius: 29px;
 
+    @media screen and (min-width:$width_desktop) {
+
+        width: 33%;
+        
+    }
+
 }

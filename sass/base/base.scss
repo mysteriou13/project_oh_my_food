@@ -299,7 +299,7 @@ justify-content: space-between;
 
 
       height: 28%;
-      width: 11%;
+      width: 9%;
       
     }
 
@@ -686,15 +686,11 @@ border-bottom-right-radius: 10%;
   color:$green_back;
   position: absolute;
   top: 2%;
-  left: 77%;
-  padding: 2%;
+  left: 38%;
+  padding: 1%;
   font-weight: bold;
 
-  @media screen  and (min-width:$width_desktop) {
-    
-    left: 92%;
 
-  }
 }
 
 .div_new2{
@@ -703,7 +699,16 @@ border-bottom-right-radius: 10%;
   position: absolute;
   top: 53%;
 
+  @media screen and (min-width:$width_desktop) {
+    
+    top: 2%;
+    left: 83%;
 }
+
+  }
+  
+
+
 
 
 .titre_footer{

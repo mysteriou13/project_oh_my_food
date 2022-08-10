@@ -170,7 +170,7 @@ a {
       padding: 2%;
       top: 19%;
       height: 28%;
-      width: 11%; } }
+      width: 9%; } }
 
 .box_menu {
   display: flex;
@@ -447,16 +447,17 @@ a {
   color: #008766;
   position: absolute;
   top: 2%;
-  left: 77%;
-  padding: 2%;
+  left: 38%;
+  padding: 1%;
   font-weight: bold; }
-  @media screen and (min-width: 1000px) {
-    .div_new, .div_new2 {
-      left: 92%; } }
 
 .div_new2 {
   position: absolute;
   top: 53%; }
+  @media screen and (min-width: 1000px) {
+    .div_new2 {
+      top: 2%;
+      left: 83%; } }
 
 .titre_footer {
   font-family: 'Shrikhand', cursive;
@@ -478,6 +479,10 @@ a {
   left: 5%;
   border-top-left-radius: 25px 37px;
   border-top-right-radius: 25px 37px; }
+  @media screen and (min-width: 1000px) {
+    .flex_box_image {
+      display: flex;
+      justify-content: space-evenly; } }
 
 .taille_image {
   width: 100%;
@@ -510,6 +515,9 @@ a {
   border-bottom: 15px solid #eaeaea;
   background-color: #ffffff;
   border-radius: 29px; }
+  @media screen and (min-width: 1000px) {
+    .box_image {
+      width: 33%; } }
 
 .box_plat {
   background-color: #f6f6f6;
