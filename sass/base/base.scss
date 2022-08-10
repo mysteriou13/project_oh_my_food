@@ -173,12 +173,25 @@ justify-content: space-between;
     @media  screen and (min-width:$width_desktop){
 
       position: relative;
-      top: 89px;
-      left: 783px;
+      top: 0px;
+    left: 30%;
+    width: 37%;
+
   }
-      
+
+
+  @media screen  and (min-width:$min-width-tab) and (max-width: $max-width-tab){
+
+    left: 196px;
+
+    
+
+  }
+
     }
 
+
+    
   
 
   .sous_titre{
@@ -524,7 +537,7 @@ top: 10%;
   
 
 position: relative;
-left: 14%;
+
 
 margin-top: 2%;
 
@@ -628,7 +641,7 @@ width: 31px;
 
   @media screen and (min-width: $width_desktop) {
 
-    width: 43vh;
+    width: 34vh;
 
   }
 
@@ -667,7 +680,7 @@ border-bottom-right-radius: 10%;
 
     color: $green;
 
-
+    
     position: relative;
     top: 14%;
     left: 14%;
@@ -686,9 +699,7 @@ border-bottom-right-radius: 10%;
     position: relative;
     top: 30%;
     left: 34%;
-
-    cursor: pointer;
-
+    
 }
 
 
@@ -736,13 +747,17 @@ border-bottom-right-radius: 10%;
 .box_titre{
 
   margin-bottom: 5%;
-  margin-top: 6%;
-
-
-  
+  margin-top: 6%;  
    position: relative;
    left: 3%;
-  
+
+
+   @media screen and (min-width: $width_desktop) {
+
+    left: 10%;
+
+
+   }
   
 
 }

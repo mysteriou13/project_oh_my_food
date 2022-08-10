@@ -93,8 +93,12 @@ a {
   @media screen and (min-width: 1000px) {
     .btn_commander {
       position: relative;
-      top: 89px;
-      left: 783px; } }
+      top: 0px;
+      left: 30%;
+      width: 37%; } }
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    .btn_commander {
+      left: 196px; } }
 
 .sous_titre {
   font-family: 'Roboto', sans-serif;
@@ -281,7 +285,6 @@ a {
   @media screen and (min-width: 1000px) {
     .box_logo {
       position: relative;
-      left: 14%;
       margin-top: 2%; } }
 
 .flech_left {
@@ -418,7 +421,7 @@ a {
   border-radius: 8px; }
   @media screen and (min-width: 1000px) {
     .card_plat {
-      width: 43vh; } }
+      width: 34vh; } }
   .card_plat:hover {
     cursor: pointer; }
     .card_plat:hover .validator {
@@ -444,8 +447,7 @@ a {
       height: 20px;
       position: relative;
       top: 30%;
-      left: 34%;
-      cursor: pointer; }
+      left: 34%; }
     .card_plat:hover .cut {
       white-space: nowrap;
       overflow: hidden;
@@ -469,6 +471,9 @@ a {
   margin-top: 6%;
   position: relative;
   left: 3%; }
+  @media screen and (min-width: 1000px) {
+    .box_titre {
+      left: 10%; } }
 
 .input_search {
   background: none;
@@ -486,6 +491,9 @@ a {
     .div_new, .div_new2 {
       left: 38%;
       padding: 1%; } }
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    .div_new, .div_new2 {
+      left: 85%; } }
 
 .div_new2 {
   position: absolute;
