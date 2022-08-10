@@ -1,0 +1,13 @@
+.box-footer{
+
+    display: block;
+
+    @media screen and (min-width:$width_desktop) {
+        
+        display: flex;
+
+
+        justify-content: space-around;
+    }
+
+}
