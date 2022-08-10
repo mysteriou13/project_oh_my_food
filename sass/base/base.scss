@@ -712,10 +712,16 @@ border-bottom-right-radius: 10%;
   color:$green_back;
   position: absolute;
   top: 2%;
-  left: 38%;
-  padding: 1%;
+  left: 75%;
+  padding: 3%;
   font-weight: bold;
 
+@media screen and (min-width: $width_desktop) {
+  
+  left: 38%;
+  padding: 1%;
+  
+  }
 
 }
 
@@ -723,7 +729,7 @@ border-bottom-right-radius: 10%;
   @extend .div_new;
 
   position: absolute;
-  top: 53%;
+  top: 52%;
 
   @media screen and (min-width:$width_desktop) {
     

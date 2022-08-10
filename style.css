@@ -461,13 +461,17 @@ a {
   color: #008766;
   position: absolute;
   top: 2%;
-  left: 38%;
-  padding: 1%;
+  left: 75%;
+  padding: 3%;
   font-weight: bold; }
+  @media screen and (min-width: 1000px) {
+    .div_new, .div_new2 {
+      left: 38%;
+      padding: 1%; } }
 
 .div_new2 {
   position: absolute;
-  top: 53%; }
+  top: 52%; }
   @media screen and (min-width: 1000px) {
     .div_new2 {
       top: 2%;
