@@ -1,0 +1,12 @@
+.menu_flex{
+
+
+    @media screen  and (min-width:$width_desktop){
+        
+    
+    display: flex;
+    justify-content: space-evenly;
+
+    }
+
+}

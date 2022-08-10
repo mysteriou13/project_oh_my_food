@@ -127,6 +127,9 @@ a {
   box-shadow: 0px 7px 9px #e6e6e6; }
   .el_nav_menu:hover #icone_mobile {
     color: #9356DC; }
+  @media screen and (min-width: 1000px) {
+    .el_nav_menu {
+      width: 22%; } }
 
 #icone_mobile {
   color: grey; }
@@ -147,8 +150,8 @@ a {
   font-size: 12px; }
   @media screen and (min-width: 1000px) {
     .numbre_cicle {
-      top: -15px;
-      left: -7px;
+      top: -1px;
+      left: -1px;
       font-size: 28px; } }
 
 .circle_nav {
@@ -165,7 +168,9 @@ a {
   @media screen and (min-width: 1000px) {
     .circle_nav {
       padding: 2%;
-      top: 19%; } }
+      top: 19%;
+      height: 28%;
+      width: 11%; } }
 
 .box_menu {
   display: flex;
@@ -534,5 +539,10 @@ a {
     .box-footer {
       display: flex;
       justify-content: space-around; } }
+
+@media screen and (min-width: 1000px) {
+  .menu_flex {
+    display: flex;
+    justify-content: space-evenly; } }
 
 /*# sourceMappingURL=style.css.map */
