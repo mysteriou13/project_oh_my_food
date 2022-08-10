@@ -773,6 +773,12 @@ border-bottom-right-radius: 10%;
   
   }
 
+  @media screen and (min-width:$min-width-tab) and (max-width:$max-width-tab){
+
+    left: 85%;
+
+  }
+
 }
 
 .div_new2{
