@@ -396,6 +396,32 @@ margin-bottom: 4%;
 
   }
 
+  .titre_box_resto{
+
+    font-size: 171%;
+
+    font-weight: bold;
+
+    padding-top: 7%;
+    padding-bottom: 4%;
+
+    position: relative;
+    left: 12%;
+
+
+    @media screen  and (min-width:$width_desktop) {
+      
+
+      padding-top: 2%;
+      padding-bottom: 2%;
+
+      position: relative;
+    left: 46%;
+
+    }
+
+  }
+
 .taille_coeur{
 
   font-size: 1.5em;

@@ -217,6 +217,20 @@ a {
       position: relative;
       left: 36%; } }
 
+.titre_box_resto {
+  font-size: 171%;
+  font-weight: bold;
+  padding-top: 7%;
+  padding-bottom: 4%;
+  position: relative;
+  left: 12%; }
+  @media screen and (min-width: 1000px) {
+    .titre_box_resto {
+      padding-top: 2%;
+      padding-bottom: 2%;
+      position: relative;
+      left: 46%; } }
+
 .taille_coeur {
   font-size: 1.5em;
   position: relative;
@@ -482,7 +496,8 @@ a {
   @media screen and (min-width: 1000px) {
     .flex_box_image {
       display: flex;
-      justify-content: space-evenly; } }
+      justify-content: space-evenly;
+      margin-bottom: 2%; } }
 
 .taille_image {
   width: 100%;
