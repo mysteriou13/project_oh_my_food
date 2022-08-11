@@ -26,6 +26,10 @@ a {
 .link_fleche {
   position: relative;
   left: -3%; }
+  @media screen and (min-width: 1000px) {
+    .link_fleche {
+      left: 11%;
+      top: 20px; } }
 
 .fa-heart {
   font-size: 1em;
@@ -273,6 +277,9 @@ a {
   width: 59%;
   position: relative;
   right: 5%; }
+  @media screen and (min-width: 1000px) {
+    .logo_page {
+      width: 28%; } }
 
 .width_image_logo {
   width: 100%; }
@@ -284,8 +291,10 @@ a {
   margin-bottom: 2%; }
   @media screen and (min-width: 1000px) {
     .box_logo {
+      margin-top: 0%;
+      margin-bottom: 0%;
       position: relative;
-      margin-top: 2%; } }
+      left: -8%; } }
 
 .flech_left {
   width: 6%;
@@ -539,7 +548,7 @@ a {
   border-top-right-radius: 11px 21px; }
   @media screen and (min-width: 1000px) {
     .taille_image {
-      height: 50vh; } }
+      height: 33vh; } }
 
 .div_search {
   background-color: #f6f6f6;

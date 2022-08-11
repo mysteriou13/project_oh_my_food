@@ -51,6 +51,14 @@ body{
     position: relative;
     left: -3%;
 
+    @media screen and (min-width:$width_desktop) {
+      
+      left: 11%;
+
+      top:20px;
+
+    }
+
   }
 
   .fa-heart {
@@ -510,6 +518,13 @@ top: 10%;
   position: relative;
     right: 5%;
 
+    @media screen  and (min-width:$width_desktop) {
+      
+      width: 28%;
+
+
+    }
+
 }
 
 .width_image_logo{
@@ -534,12 +549,14 @@ top: 10%;
   
 
 @media screen  and (min-width:$width_desktop){
-  
 
-position: relative;
+margin-top: 0%;
 
+ margin-bottom: 0%;
 
-margin-top: 2%;
+ position: relative;
+
+ left: -8%;
 
 }
 
