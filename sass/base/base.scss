@@ -126,7 +126,7 @@ justify-content: space-between;
     position: relative;  
       top: 34px;
       left: 15%;
-    
+     cursor: pointer;
 
 
     @media  screen and(min-width:$width_desktop) {
@@ -173,10 +173,10 @@ justify-content: space-between;
       left: 90px;
     
     width: 52%;
-    
-  
 
     height: 46px;
+
+    cursor: pointer;
 
     @media  screen and (min-width:$width_desktop){
 
@@ -212,7 +212,6 @@ justify-content: space-between;
   }
 
   .text_fonctionement{
-
 
 
     font-weight: bold;
@@ -377,6 +376,12 @@ top: 37%;
     width: 61%;
 margin-top: 4%;
 margin-bottom: 4%;
+
+@media screen and (min-width:$width_desktop) {
+  
+  width: 25%;
+
+}
 
   }
 
