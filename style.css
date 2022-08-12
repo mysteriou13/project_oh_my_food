@@ -108,7 +108,12 @@ a {
 
 .sous_titre {
   font-family: 'Roboto', sans-serif;
-  font-size: 20px; }
+  font-size: 20px;
+  position: relative;
+  left: 12%; }
+  @media screen and (min-width: 1000px) {
+    .sous_titre {
+      left: 0%; } }
 
 .text_fonctionement {
   font-weight: bold;
@@ -203,10 +208,13 @@ a {
 .icone_titre {
   width: 61%;
   margin-top: 4%;
-  margin-bottom: 4%; }
+  margin-bottom: 4%;
+  position: relative;
+  left: 25%; }
   @media screen and (min-width: 1000px) {
     .icone_titre {
-      width: 25%; } }
+      width: 25%;
+      left: 36%; } }
 
 .font_size_icone {
   font-size: 139%; }
