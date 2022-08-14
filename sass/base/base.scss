@@ -531,7 +531,7 @@ left: -95%;
   color:black;
 
   position: relative;
-left: 12%;
+left: 4%;
 top: 8%;
 
 
@@ -835,39 +835,77 @@ border-bottom-right-radius: 10%;
 
 .div_new{
 
-  background-color: $green;
+  
   color:$green_back;
-  position: absolute;
+  position: relative;
   top: 2%;
   left: 75%;
-  padding: 3%;
+
   font-weight: bold;
+
+  z-index: 1;
 
 @media screen and (min-width: $width_desktop) {
   
-  left: 38%;
-  padding: 1%;
+
+  top: -7%;
+  width: 67%;
+  left: 83%;
+
+
   
   }
 
   @media screen and (min-width:$min-width-tab) and (max-width:$max-width-tab){
 
-    left: 85%;
+    left: 84%;
+     padding: 0%; 
+    z-index: 1;
+    top: 3%;
 
   }
 
 }
 
+.p_new{
+
+  background-color: $green;
+  position: relative;
+  left: 0%;
+  padding: 3%;
+  font-weight: bold;
+  z-index: 1;
+  width: 17%;
+
+
+  @media screen and (min-width:$min-width-tab) and (max-width:$max-width-tab){
+
+    width: 9%;
+
+  }
+
+
+}
+
+.p_new_2{
+
+  @extend .p_new;
+
+
+
+}
+
 .div_new2{
   @extend .div_new;
-
-  position: absolute;
-  top: 52%;
+  position: relative;
+   top: 2%;
+  width: 100%;
 
   @media screen and (min-width:$width_desktop) {
     
-    top: 2%;
+    top: -7%;
     left: 83%;
+    width: 68%
 }
 
   }

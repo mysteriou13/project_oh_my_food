@@ -288,7 +288,7 @@ main {
 .text_box {
   color: black;
   position: relative;
-  left: 12%;
+  left: 4%;
   top: 8%; }
   @media screen and (min-width: 768px) and (max-width: 1024px) {
     .text_box {
@@ -517,28 +517,45 @@ main {
   border: none; }
 
 .div_new, .div_new2 {
-  background-color: #99e2d0;
   color: #008766;
-  position: absolute;
+  position: relative;
   top: 2%;
   left: 75%;
-  padding: 3%;
-  font-weight: bold; }
+  font-weight: bold;
+  z-index: 1; }
   @media screen and (min-width: 1000px) {
     .div_new, .div_new2 {
-      left: 38%;
-      padding: 1%; } }
+      top: -7%;
+      width: 67%;
+      left: 83%; } }
   @media screen and (min-width: 768px) and (max-width: 1024px) {
     .div_new, .div_new2 {
-      left: 85%; } }
+      left: 84%;
+      padding: 0%;
+      z-index: 1;
+      top: 3%; } }
+
+.p_new, .p_new_2 {
+  background-color: #99e2d0;
+  position: relative;
+  left: 0%;
+  padding: 3%;
+  font-weight: bold;
+  z-index: 1;
+  width: 17%; }
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    .p_new, .p_new_2 {
+      width: 9%; } }
 
 .div_new2 {
-  position: absolute;
-  top: 52%; }
+  position: relative;
+  top: 2%;
+  width: 100%; }
   @media screen and (min-width: 1000px) {
     .div_new2 {
-      top: 2%;
-      left: 83%; } }
+      top: -7%;
+      left: 83%;
+      width: 68%; } }
 
 .titre_footer {
   font-family: 'Shrikhand', cursive;
@@ -666,5 +683,10 @@ main {
   opacity: 0;
   -webkit-animation: 4s ease 1s normal forwards 1 fadein;
   animation: 4s ease 1s normal forwards 1 fadein; }
+
+.index_palette_du_gout {
+  position: relative;
+  top: -29%;
+  height: 48%; }
 
 /*# sourceMappingURL=style.css.map */
