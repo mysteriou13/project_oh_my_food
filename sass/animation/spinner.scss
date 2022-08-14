@@ -10,8 +10,14 @@
   transition: opacity 20ms;
 
   position: absolute;
-    left: 46%;
+    left: 32%;
     top: 32%;
+
+    @media screen and (min-width: $width_desktop) {
+
+      left: 46%;
+
+    }
 
   animation: 
   spin 4s;
