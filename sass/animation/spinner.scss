@@ -1,0 +1,55 @@
+.spinner_rotation{
+  
+
+  opacity: 1;
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid $purple; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  transition: opacity 20ms;
+
+  position: absolute;
+    left: 46%;
+    top: 32%;
+
+  animation: 
+  spin 4s;
+  
+}
+
+
+@keyframes spin {
+  
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+
+
+}
+
+.spinner_opacity{
+
+  opacity:1;
+  animation: 
+  fade 4s;
+
+}
+
+@keyframes fade{
+
+  100% { opacity:0; }
+}
+
+main{
+
+ opacity:0;
+
+ $t : 4+s;
+
+ $t2 : 1+s;
+
+ -webkit-animation: $t ease $t2 normal forwards 1 fadein;
+  animation: $t ease $t2 normal forwards 1 fadein;
+
+
+}

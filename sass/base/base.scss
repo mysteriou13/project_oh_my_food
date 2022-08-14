@@ -38,11 +38,16 @@ body{
     }
   
 }
-
   a{
 
     text-decoration:none;
     color:white;
+
+  }
+
+  main{
+
+opacity: 0;
 
   }
 
@@ -209,13 +214,28 @@ justify-content: space-between;
     font-size: 20px;
     
     position: relative;
-    left: 12%;
+    left: 13%;
 
     @media screen and (min-width:$width_desktop) {
 
-      left: 0%;
+      left:36%;
+    }
+
+}
+
+.titre_section_plat{
+  
+  @include roboto;
+
+    font-size: 20px;
     
-  }
+    position: relative;
+    left: 13%;
+
+    @media screen and (min-width:$width_desktop) {
+
+      left:0%;
+    }
 
 
 }
@@ -644,6 +664,8 @@ width: 31px;
 }
 
 }
+
+
 
 
 .section_menu{
