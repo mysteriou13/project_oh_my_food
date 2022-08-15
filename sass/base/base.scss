@@ -317,9 +317,13 @@ justify-content: space-between;
     height: 22vh;
 
     border-top-left-radius: $radius-image $radius-image2;
-
     border-top-right-radius: $radius-image $radius-image2;
 
+    @media screen and (min-width:$width_desktop) {
+
+      height: 28vh;
+
+    }
 
 
 }
