@@ -70,7 +70,7 @@ main {
 .button_explore, .btn_commander {
   position: relative;
   top: 34px;
-  left: 15%;
+  left: 21%;
   cursor: pointer;
   height: 57px;
   padding-left: 6%;
@@ -253,7 +253,7 @@ main {
   padding-top: 7%;
   padding-bottom: 4%;
   position: relative;
-  left: 12%;
+  left: 19%;
   font-size: 171%;
   display: flex;
   flex-direction: column; }
@@ -275,13 +275,13 @@ main {
   padding-top: 7%;
   padding-bottom: 4%;
   position: relative;
-  left: 12%; }
+  left: 7%; }
   @media screen and (min-width: 1000px) {
     .titre_box_resto {
       padding-top: 2%;
       padding-bottom: 2%;
       position: relative;
-      left: 46%; } }
+      left: 16%; } }
 
 .taille_coeur {
   font-size: 1.5em;
@@ -648,7 +648,8 @@ input::-ms-input-placeholder {
   height: 30vh;
   border-bottom: 15px solid #eaeaea;
   background-color: #ffffff;
-  border-radius: 29px; }
+  border-radius: 29px;
+  padding-bottom: 2%; }
   @media screen and (min-width: 1000px) {
     .box_image {
       width: 33%; } }
