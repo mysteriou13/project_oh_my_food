@@ -923,13 +923,14 @@ input::-ms-input-placeholder {
   
   color:$green_back;
   position: relative;
-  top: 2%;
+  top: -5%;
 
 
   font-weight: bold;
 
   z-index: 1;
 
+  height: 10%;
 
 
 @media screen and (min-width: $width_desktop) {
@@ -937,7 +938,7 @@ input::-ms-input-placeholder {
 
   top: -7%;
   width: 67%;
-  left: 83%;
+  left: 32%;
 
 
   
@@ -958,13 +959,13 @@ input::-ms-input-placeholder {
 
   background-color: $green;
   position: relative;
-  left: 0%;
-
+  left: 76%;
   font-weight: bold;
   z-index: 1;
-  width: 17%;
-
+  width: 20%;
   height: 100%;
+  padding-left: 2%;
+  padding-top: 2%;
 
   @media screen and (min-width:$min-width-tab) and (max-width:$max-width-tab){
 
