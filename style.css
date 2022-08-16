@@ -52,7 +52,9 @@ main {
 
 .box_restaurant_text {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  position: relative;
+  top: 2%; }
 
 .div_header {
   background-color: #f6f6f6;
@@ -166,11 +168,20 @@ main {
 
 .taille_image_acceuil {
   width: 100%;
-  height: 29vh;
+  height: 100%;
   border-top-left-radius: 11px 21px;
   border-top-right-radius: 11px 21px; }
   @media screen and (min-width: 1000px) {
     .taille_image_acceuil {
+      height: 28vh; } }
+
+.taille_image_acceuilnonew {
+  width: 100%;
+  height: 74%;
+  border-top-left-radius: 11px 21px;
+  border-top-right-radius: 11px 21px; }
+  @media screen and (min-width: 1000px) {
+    .taille_image_acceuilnonew {
       height: 28vh; } }
 
 .el_nav_menu:hover {
@@ -286,9 +297,9 @@ main {
       left: 16%; } }
 
 .taille_coeur {
-  font-size: 1.5em;
+  font-size: 1.2em;
   position: relative;
-  top: 22%;
+  top: 7%;
   left: -95%; }
 
 .text_box {
@@ -559,7 +570,6 @@ input::-ms-input-placeholder {
   color: #008766;
   position: relative;
   top: 2%;
-  left: 75%;
   font-weight: bold;
   z-index: 1; }
   @media screen and (min-width: 1000px) {
@@ -578,10 +588,10 @@ input::-ms-input-placeholder {
   background-color: #99e2d0;
   position: relative;
   left: 0%;
-  padding: 3%;
   font-weight: bold;
   z-index: 1;
-  width: 17%; }
+  width: 17%;
+  height: 100%; }
   @media screen and (min-width: 768px) and (max-width: 1024px) {
     .p_new, .p_new_2 {
       width: 9%; } }
@@ -644,14 +654,24 @@ input::-ms-input-placeholder {
   width: 105%;
   left: -13%; }
 
-.box_image {
-  height: 35vh;
+.box_image_new {
+  height: 31vh;
   border-bottom: 15px solid #eaeaea;
   background-color: #ffffff;
   border-radius: 29px;
   padding-bottom: 2%; }
   @media screen and (min-width: 1000px) {
-    .box_image {
+    .box_image_new {
+      width: 33%; } }
+
+.box_image_nonew {
+  height: 30vh;
+  border-bottom: 15px solid #eaeaea;
+  background-color: #ffffff;
+  border-radius: 29px;
+  padding-bottom: 2%; }
+  @media screen and (min-width: 1000px) {
+    .box_image_nonew {
       width: 33%; } }
 
 .box_plat {
@@ -727,7 +747,17 @@ main {
 
 .index_palette_du_gout {
   position: relative;
-  top: -29%;
-  height: 48%; }
+  top: -19%;
+  height: 75%; }
+
+.div_image_new {
+  position: relative;
+  top: -19%;
+  height: 75%; }
+
+.div_image_nonew {
+  position: relative;
+  top: -19%;
+  height: 75%; }
 
 /*# sourceMappingURL=style.css.map */

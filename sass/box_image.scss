@@ -1,6 +1,6 @@
-.box_image{
+.box_image_new{
 
-    height:35vh;
+    height:31vh;
     border-bottom:15px solid $grey;
     background-color:$backcolor;
     border-radius: 29px;
@@ -14,3 +14,22 @@
     }
 
 }
+
+
+.box_image_nonew{
+
+    height:30vh;
+    border-bottom:15px solid $grey;
+    background-color:$backcolor;
+    border-radius: 29px;
+
+    padding-bottom: 2%;
+
+    @media screen and (min-width:$width_desktop) {
+
+        width: 33%;
+        
+    }
+
+}
+
