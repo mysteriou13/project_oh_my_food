@@ -59,7 +59,7 @@ main {
 .div_header {
   background-color: #f6f6f6;
   width: 104%;
-  height: 55vh;
+  height: 59vh;
   position: relative;
   left: -2%; }
   @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -134,7 +134,7 @@ main {
   margin-bottom: 11%;
   position: relative;
   left: 6%;
-  margin-top: 8%; }
+  margin-top: 11%; }
   @media screen and (min-width: 1000px) {
     .text_fonctionement {
       margin-top: 2%;
@@ -189,9 +189,9 @@ main {
 
 .numbre_cicle {
   position: relative;
-  top: -6px;
-  left: -2px;
-  font-size: 12px; }
+  top: -8px;
+  left: -3px;
+  font-size: 17px; }
   @media screen and (min-width: 1000px) {
     .numbre_cicle {
       top: -1px;
@@ -285,7 +285,7 @@ main {
 .titre_box_resto {
   font-size: 171%;
   font-weight: bold;
-  padding-top: 7%;
+  padding-top: 12%;
   padding-bottom: 4%;
   position: relative;
   left: 8%; }
@@ -762,5 +762,8 @@ main {
   position: relative;
   top: -19%;
   height: 75%; }
+
+.menu_flex {
+  margin-bottom: 18%; }
 
 /*# sourceMappingURL=style.css.map */

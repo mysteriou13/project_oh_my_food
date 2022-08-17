@@ -109,7 +109,7 @@ top: 2%;
   width: 104%;
 
     
-  height: 55vh;
+  height: 59vh;
 
   @media screen  and (min-width:$min-width-tab) and (max-width: $max-width-tab){
     
@@ -251,7 +251,7 @@ top: 2%;
     margin-bottom: 11%;
     position: relative;
     left: 6%;
-    margin-top: 8%;
+    margin-top: 11%;
 
     @media screen and (min-width:$width_desktop) {
     
@@ -358,10 +358,9 @@ top: 2%;
   .numbre_cicle{
 
     position: relative;
-    top: -6px;
-    left: -2px;
-
-    font-size: 12px;
+    top: -8px;
+    left: -3px;
+    font-size: 17px;
 
     @media screen and (min-width:$width_desktop) {
       top: -1px;
@@ -531,7 +530,7 @@ left:21%;
 
     font-weight: bold;
 
-    padding-top: 7%;
+    padding-top: 12%;
     padding-bottom: 4%;
 
     position: relative;
