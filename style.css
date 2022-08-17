@@ -288,7 +288,7 @@ main {
   padding-top: 7%;
   padding-bottom: 4%;
   position: relative;
-  left: 7%; }
+  left: 8%; }
   @media screen and (min-width: 1000px) {
     .titre_box_resto {
       padding-top: 2%;
@@ -624,9 +624,9 @@ input::-ms-input-placeholder {
   margin-left: 8%; }
 
 .flex_box_image {
-  width: 90%;
+  width: 85%;
   position: relative;
-  left: 3%;
+  left: 6%;
   border-top-left-radius: 25px 37px;
   border-top-right-radius: 25px 37px; }
   @media screen and (min-width: 1000px) {
