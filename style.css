@@ -1,12 +1,3 @@
-.sous_titre {
-  font-family: 'Roboto', sans-serif;
-  font-size: 20px;
-  position: relative;
-  left: 13%; }
-  @media screen and (min-width: 1000px) {
-    .sous_titre {
-      left: 36%; } }
-
 .titre_section_plat {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
@@ -761,5 +752,14 @@ main {
   @media screen and (min-width: 768px) and (max-width: 1024px) {
     .btn_commander {
       left: 196px; } }
+
+.sous_titre {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  position: relative;
+  left: 13%; }
+  @media screen and (min-width: 1000px) {
+    .sous_titre {
+      left: 36%; } }
 
 /*# sourceMappingURL=style.css.map */

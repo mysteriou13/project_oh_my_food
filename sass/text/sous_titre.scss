@@ -1,0 +1,15 @@
+.sous_titre{
+
+    @include roboto;
+
+    font-size: 20px;
+    
+    position: relative;
+    left: 13%;
+
+    @media screen and (min-width:$width_desktop) {
+
+      left:36%;
+    }
+
+}
