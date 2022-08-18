@@ -1,0 +1,13 @@
+.div_icone_titre{
+
+    background-color: $backcolor;
+  
+    margin-top: 3%;
+  
+    @media screen and (min-width:$width_desktop) {
+  
+      margin-top: 0%;
+  
+    }
+  
+  }

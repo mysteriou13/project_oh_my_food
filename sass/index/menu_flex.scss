@@ -2,4 +2,11 @@
 
     margin-bottom: 18%;
 
+
+    @media screen and (min-width:$width_desktop) {
+
+        margin-bottom: 0%;
+
+    }
+
 }

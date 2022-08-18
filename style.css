@@ -765,5 +765,8 @@ main {
 
 .menu_flex {
   margin-bottom: 18%; }
+  @media screen and (min-width: 1000px) {
+    .menu_flex {
+      margin-bottom: 0%; } }
 
 /*# sourceMappingURL=style.css.map */
