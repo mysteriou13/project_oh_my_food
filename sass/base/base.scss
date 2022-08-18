@@ -1,55 +1,5 @@
 
-html{
 
-  overflow-x: hidden;
-}
-
-body{
-
-
-    background-color:$backcolor;
-
-    margin: 0; height: 100%;
-    
-    overflow-x: hidden;
-  }
-  
-  img{
-  
-  object-fit:cover;
-  
-  }
-  
-  footer{
-  
-  
-  background-color: $backfooter;
-  
-  color:white;
-    
-    justify-content:space-around;
-
-    padding-bottom: 6%;
-
-    @media screen and (min-width:$width_desktop) {
-      
-      padding-bottom: 0%;
-
-    }
-  
-}
-  a{
-
-    text-decoration:none;
-    color:white;
-
-  }
-
-  main{
-
-opacity: 0;
-
-  }
 
   .link_fleche{
 
