@@ -41,31 +41,6 @@
     .div_header {
       height: 41vh; } }
 
-.button_explore, .btn_commander {
-  position: relative;
-  top: 34px;
-  left: 21%;
-  cursor: pointer;
-  height: 57px;
-  padding-left: 6%;
-  padding-right: 6%;
-  border: none;
-  border-top-left-radius: 26px;
-  border-bottom-left-radius: 26px;
-  border-bottom-right-radius: 26px;
-  border-top-right-radius: 26px;
-  color: white;
-  font-size: 1.2em;
-  background: linear-gradient(to bottom right, #FF79DA, #9356DC);
-  margin-bottom: 10%; }
-  @media screen and (min-width: 1000px) {
-    .button_explore, .btn_commander {
-      left: 37%;
-      margin-bottom: 0%; } }
-  @media screen and (min-width: 768px) and (max-width: 1024px) {
-    .button_explore, .btn_commander {
-      left: 31%; } }
-
 .btn_commander {
   position: relative;
   top: 0px;
@@ -733,6 +708,31 @@ main {
   @media screen and (min-width: 1000px) {
     .menu_flex {
       margin-bottom: 0%; } }
+
+.button_explore, .btn_commander {
+  position: relative;
+  top: 34px;
+  left: 21%;
+  cursor: pointer;
+  height: 57px;
+  padding-left: 6%;
+  padding-right: 6%;
+  border: none;
+  border-top-left-radius: 26px;
+  border-bottom-left-radius: 26px;
+  border-bottom-right-radius: 26px;
+  border-top-right-radius: 26px;
+  color: white;
+  font-size: 1.2em;
+  background: linear-gradient(to bottom right, #FF79DA, #9356DC);
+  margin-bottom: 10%; }
+  @media screen and (min-width: 1000px) {
+    .button_explore, .btn_commander {
+      left: 37%;
+      margin-bottom: 0%; } }
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    .button_explore, .btn_commander {
+      left: 31%; } }
 
 html {
   overflow-x: hidden; }
