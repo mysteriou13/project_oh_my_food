@@ -3,13 +3,17 @@
 
 @import './mixin.scss';
 
-@import './base/base.scss';
-
 @import './flex_box_image.scss';
 
 @import './base/taille_image.scss';
 
 @import './div_search.scss';
+
+@import './div/div_new.scss';
+
+@import './div/div_footer.scss';
+
+@import './div/div_new2.scss';
 
 @import './box_restaurant.scss';
 
@@ -37,9 +41,21 @@
 
 @import './box/box_menu.scss';
 
+@import './box/box_logo.scss';
+
+@import './box/op_box.scss';
+
+@import './box/box_text.scss';
+
+@import './box/box_plat_el.scss';
+
+@import './box/box_titre.scss';
+
 @import './index/menu_flex.scss';
 
 @import './index/button_explore.scss';
+
+@import './index/div_icone_titre.scss';
 
 @import './base/html.scss';
 
@@ -51,9 +67,35 @@
 
 @import './composant/btn_commander.scss';
 
+@import './composant/taille_coeur.scss';
+
+@import './composant/logo_page.scss';
+
+@import './composant/width_image_logo.scss';
+
+@import './composant/flech_home.scss';
+
+@import './composant/flech_left.scss';
+
+@import './composant/card_plat.scss';
+
 @import './text/sous_titre.scss';
 
+@import './composant/section_menu.scss';
+
+@import './composant/validator.scss';
+
+@import './composant/p_new.scss';
+
+@import './composant/input_search.scss';
+@import './composant/input.scss';
+
+
 @import './text/text_fonctionement.scss';
+
+@import './text/text_box.scss';
+
+@import './text/strong_text.scss';
 
 @import "./index/titre_section_plat.scss";
 
@@ -71,11 +113,15 @@
 
 @import './icone/font_size_icone.scss';
 
+@import './icone/icone_titre.scss';
+
 @import './image/taille_image_acceuil.scss';
 
 @import './image/taille_image_acceuilnonew.scss';
 
 @import './titre/div_titre.scss';
+
+@import './titre/titre_restaurant.scss';
 
 @import './titre/soustitre.scss';
 

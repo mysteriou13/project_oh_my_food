@@ -1,0 +1,14 @@
+.logo_page{
+
+    width: 59%;
+    position: relative;
+      right: 5%;
+  
+      @media screen  and (min-width:$width_desktop) {
+        
+        width: 28%;
+  
+  
+      }
+  
+  }

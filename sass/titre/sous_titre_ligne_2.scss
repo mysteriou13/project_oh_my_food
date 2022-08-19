@@ -1,0 +1,12 @@
+.sous_titre_ligne_2{
+
+    position: relative;
+   
+    left: 12%;
+    
+    @media screen and (min-width: $width_desktop) {
+    left: 0%;  
+    }
+  
+   
+  }

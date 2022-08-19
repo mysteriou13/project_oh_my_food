@@ -1,0 +1,19 @@
+.text_box{
+
+    color:black;
+  
+    position: relative;
+  left: 4%;
+  top: 8%;
+  
+  
+  @media screen and (min-width:$min-width-tab) and (max-width:$max-width-tab){
+  
+  font-size: 26px;
+  
+  top: 10%;
+  
+  }
+  
+  }
+  

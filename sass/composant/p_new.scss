@@ -1,0 +1,21 @@
+.p_new{
+
+    background-color: $green;
+    position: relative;
+    left: 76%;
+    font-weight: bold;
+    z-index: 1;
+    width: 20%;
+    height: 100%;
+    padding-left: 2%;
+    padding-top: 2%;
+  
+    @media screen and (min-width:$min-width-tab) and (max-width:$max-width-tab){
+  
+      width: 9%;
+  
+    }
+  
+  
+  }
+  
