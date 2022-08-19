@@ -1,0 +1,21 @@
+.soustitre{
+
+    position: relative;
+   
+     left: 9%;
+
+     @media screen and (min-width:$min-width-tab) and (max-width:$max-width-tab){
+
+      left: 0%;
+
+     }
+
+
+    @media screen  and (min-width:$width_desktop) {
+
+    left: 1%;
+    
+    }
+
+
+  }

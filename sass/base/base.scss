@@ -1,92 +1,4 @@
   
-  .div_titre{
-
-    background-color: white;
-
-  }
-
-  .soustitre{
-
-    position: relative;
-
-   
-     left: 9%;
-
-     @media screen and (min-width:$min-width-tab) and (max-width:$max-width-tab){
-
-      left: 0%;
-
-     }
-
-
-    @media screen  and (min-width:$width_desktop) {
-
-    left: 1%;
-    
-    }
-
-
-  }
-
-  .titre_restaurant{
-
-    font-weight: bold;
-   
-    padding-top: 7%;
-    padding-bottom: 4%;
-
-    position: relative;
-    left: 19%;
-
-    font-size: 171%;
-
-    display: flex;
-    flex-direction: column;
-    
-    @media screen  and (min-width:$width_desktop) {
-      
-  display: block;
-      position: relative;
-    left: 36%;
-
-    padding-top: 2%;
-    padding-bottom: 2%;
-
-    }
-
-    @media screen and (min-width:$min-width-tab) and (max-width:$max-width-tab){
-      display: block;
-      left: 24%;
-
-    }
-
-  }
-
-  .titre_box_resto{
-
-    font-size: 171%;
-
-    font-weight: bold;
-
-    padding-top: 12%;
-    padding-bottom: 4%;
-
-    position: relative;
-    left: 8%;
-
-
-    @media screen  and (min-width:$width_desktop) {
-      
-
-      padding-top: 2%;
-      padding-bottom: 2%;
-
-      position: relative;
-    left: 16%;
-
-    }
-
-  }
 
 .taille_coeur{
 
@@ -180,21 +92,6 @@ margin-top: 0%;
 
 }
 
-.titre_menu{
-
-  display: flex;
-justify-content: space-between;
-width: 90%;
-position: relative;
-left: 4%;
-
-@media screen and (min-width: $width_desktop) {
-
-  justify-content: space-evenly;
-
-}
-
-}
 
 .name_menu{
 
@@ -210,14 +107,7 @@ font-size: 180%;
 
 }
 
-.bordure_plat_titre{
 
-background-color: $green;
-
-height: 4px;
-width: 31px;
-
-}
 
 @for $i from 1 through 9 {
   .op_box-#{$i} {
@@ -527,24 +417,6 @@ input::-ms-input-placeholder {
 
 
 
-
-.titre_footer{
-
-@include Shrikhand;
-
-  padding-left: 8%;
-
-  padding-bottom: 4%;
-  padding-top: 4%;
-
-  @media screen and(min-width:$width_desktop) {
-
-    padding-bottom: 2%;
-    padding-top: 2%;
-    
-  }
-
-}
 
 .div_footer{
 
