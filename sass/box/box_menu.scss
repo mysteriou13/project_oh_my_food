@@ -1,0 +1,18 @@
+.box_menu{
+    
+
+
+    display: flex;
+    width: 72%;
+    justify-content:  space-evenly;
+    
+    position: relative;
+    top: 37%;
+    
+    @media screen  and (min-width:$min-width-tab) and (max-width:$max-width-tab){
+    
+      font-size: 26px;
+    }
+    
+    }
+    
