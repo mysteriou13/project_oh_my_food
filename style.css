@@ -1,3 +1,40 @@
+html {
+  overflow-x: hidden; }
+
+body {
+  background-color: #ffffff;
+  margin: 0;
+  height: 100%;
+  overflow-x: hidden; }
+
+img {
+  object-fit: cover; }
+
+footer {
+  background-color: #353535ff;
+  color: white;
+  justify-content: space-around;
+  padding-bottom: 6%; }
+  @media screen and (min-width: 1000px) {
+    footer {
+      padding-bottom: 0%; } }
+
+a {
+  text-decoration: none;
+  color: white; }
+
+main {
+  opacity: 0; }
+
+.taille_image {
+  width: 100%;
+  height: 29vh;
+  border-top-left-radius: 11px 21px;
+  border-top-right-radius: 11px 21px; }
+  @media screen and (min-width: 1000px) {
+    .taille_image {
+      height: 33vh; } }
+
 .flex_box_image {
   width: 85%;
   position: relative;
@@ -9,15 +46,6 @@
       display: flex;
       justify-content: space-evenly;
       margin-bottom: 2%; } }
-
-.taille_image {
-  width: 100%;
-  height: 29vh;
-  border-top-left-radius: 11px 21px;
-  border-top-right-radius: 11px 21px; }
-  @media screen and (min-width: 1000px) {
-    .taille_image {
-      height: 33vh; } }
 
 .div_search {
   background-color: #f6f6f6;
@@ -46,6 +74,16 @@
       z-index: 1;
       top: 3%; } }
 
+.div_image_new {
+  position: relative;
+  top: -19%;
+  height: 83%; }
+
+.div_image_nonew {
+  position: relative;
+  top: -19%;
+  height: 75%; }
+
 .div_footer {
   margin-bottom: 4%;
   margin-left: 8%; }
@@ -59,6 +97,11 @@
       top: -7%;
       left: 83%;
       width: 68%; } }
+
+.div_image_nonew {
+  position: relative;
+  top: -19%;
+  height: 75%; }
 
 .box_restaurant {
   background-color: #eaeaea;
@@ -104,10 +147,6 @@
       position: relative;
       top: 0px;
       left: 0%; } }
-
-.explo_resto {
-  position: relative;
-  top: -9%; }
 
 .box-footer {
   display: block; }
@@ -156,21 +195,6 @@ main {
   -webkit-animation: 4s ease 1s normal forwards 1 fadein;
   animation: 4s ease 1s normal forwards 1 fadein; }
 
-.index_palette_du_gout {
-  position: relative;
-  top: -19%;
-  height: 75%; }
-
-.div_image_new {
-  position: relative;
-  top: -19%;
-  height: 83%; }
-
-.div_image_nonew {
-  position: relative;
-  top: -19%;
-  height: 75%; }
-
 .box_restaurant_text {
   display: flex;
   justify-content: space-between;
@@ -199,96 +223,6 @@ main {
       position: relative;
       left: -8%; } }
 
-.op_box-1 {
-  opacity: 0;
-  -webkit-animation: 5s ease 1s normal forwards 1 fadein;
-  animation: 5s ease 1s normal forwards 1 fadein; }
-
-@keyframes fadein {
-  20% {
-    opacity: 1; }
-  100% {
-    opacity: 1; } }
-.op_box-2 {
-  opacity: 0;
-  -webkit-animation: 5s ease 2s normal forwards 1 fadein;
-  animation: 5s ease 2s normal forwards 1 fadein; }
-
-@keyframes fadein {
-  20% {
-    opacity: 1; }
-  100% {
-    opacity: 1; } }
-.op_box-3 {
-  opacity: 0;
-  -webkit-animation: 5s ease 3s normal forwards 1 fadein;
-  animation: 5s ease 3s normal forwards 1 fadein; }
-
-@keyframes fadein {
-  20% {
-    opacity: 1; }
-  100% {
-    opacity: 1; } }
-.op_box-4 {
-  opacity: 0;
-  -webkit-animation: 5s ease 4s normal forwards 1 fadein;
-  animation: 5s ease 4s normal forwards 1 fadein; }
-
-@keyframes fadein {
-  20% {
-    opacity: 1; }
-  100% {
-    opacity: 1; } }
-.op_box-5 {
-  opacity: 0;
-  -webkit-animation: 5s ease 5s normal forwards 1 fadein;
-  animation: 5s ease 5s normal forwards 1 fadein; }
-
-@keyframes fadein {
-  20% {
-    opacity: 1; }
-  100% {
-    opacity: 1; } }
-.op_box-6 {
-  opacity: 0;
-  -webkit-animation: 5s ease 6s normal forwards 1 fadein;
-  animation: 5s ease 6s normal forwards 1 fadein; }
-
-@keyframes fadein {
-  20% {
-    opacity: 1; }
-  100% {
-    opacity: 1; } }
-.op_box-7 {
-  opacity: 0;
-  -webkit-animation: 5s ease 7s normal forwards 1 fadein;
-  animation: 5s ease 7s normal forwards 1 fadein; }
-
-@keyframes fadein {
-  20% {
-    opacity: 1; }
-  100% {
-    opacity: 1; } }
-.op_box-8 {
-  opacity: 0;
-  -webkit-animation: 5s ease 8s normal forwards 1 fadein;
-  animation: 5s ease 8s normal forwards 1 fadein; }
-
-@keyframes fadein {
-  20% {
-    opacity: 1; }
-  100% {
-    opacity: 1; } }
-.op_box-9 {
-  opacity: 0;
-  -webkit-animation: 5s ease 9s normal forwards 1 fadein;
-  animation: 5s ease 9s normal forwards 1 fadein; }
-
-@keyframes fadein {
-  20% {
-    opacity: 1; }
-  100% {
-    opacity: 1; } }
 .box_text {
   padding-top: 2%;
   padding-bottom: 5%;
@@ -348,34 +282,6 @@ main {
     .div_icone_titre {
       margin-top: 0%; } }
 
-html {
-  overflow-x: hidden; }
-
-body {
-  background-color: #ffffff;
-  margin: 0;
-  height: 100%;
-  overflow-x: hidden; }
-
-img {
-  object-fit: cover; }
-
-footer {
-  background-color: #353535ff;
-  color: white;
-  justify-content: space-around;
-  padding-bottom: 6%; }
-  @media screen and (min-width: 1000px) {
-    footer {
-      padding-bottom: 0%; } }
-
-a {
-  text-decoration: none;
-  color: white; }
-
-main {
-  opacity: 0; }
-
 .link_fleche {
   position: relative;
   left: -3%; }
@@ -405,7 +311,7 @@ main {
   transition: color 2s ease-out;
   position: relative;
   top: 27%;
-  font-size: 2em; }
+  font-size: 1.5em; }
   .fa-heart:hover {
     background: -webkit-linear-gradient(top, #9356DC 30%, #FF79DA 70%);
     background-clip: text;
@@ -578,6 +484,10 @@ input::-ms-input-placeholder {
 
 .strong_text {
   margin-bottom: 4%; }
+
+.name_menu {
+  font-family: 'Shrikhand', cursive;
+  font-size: 180%; }
 
 .titre_section_plat {
   font-family: 'Roboto', sans-serif;
@@ -752,5 +662,96 @@ input::-ms-input-placeholder {
     .titre_footer {
       padding-bottom: 2%;
       padding-top: 2%; } }
+
+.op_box-1 {
+  opacity: 0;
+  -webkit-animation: 5s ease 1s normal forwards 1 fadein;
+  animation: 5s ease 1s normal forwards 1 fadein; }
+
+@keyframes fadein {
+  20% {
+    opacity: 1; }
+  100% {
+    opacity: 1; } }
+.op_box-2 {
+  opacity: 0;
+  -webkit-animation: 5s ease 2s normal forwards 1 fadein;
+  animation: 5s ease 2s normal forwards 1 fadein; }
+
+@keyframes fadein {
+  20% {
+    opacity: 1; }
+  100% {
+    opacity: 1; } }
+.op_box-3 {
+  opacity: 0;
+  -webkit-animation: 5s ease 3s normal forwards 1 fadein;
+  animation: 5s ease 3s normal forwards 1 fadein; }
+
+@keyframes fadein {
+  20% {
+    opacity: 1; }
+  100% {
+    opacity: 1; } }
+.op_box-4 {
+  opacity: 0;
+  -webkit-animation: 5s ease 4s normal forwards 1 fadein;
+  animation: 5s ease 4s normal forwards 1 fadein; }
+
+@keyframes fadein {
+  20% {
+    opacity: 1; }
+  100% {
+    opacity: 1; } }
+.op_box-5 {
+  opacity: 0;
+  -webkit-animation: 5s ease 5s normal forwards 1 fadein;
+  animation: 5s ease 5s normal forwards 1 fadein; }
+
+@keyframes fadein {
+  20% {
+    opacity: 1; }
+  100% {
+    opacity: 1; } }
+.op_box-6 {
+  opacity: 0;
+  -webkit-animation: 5s ease 6s normal forwards 1 fadein;
+  animation: 5s ease 6s normal forwards 1 fadein; }
+
+@keyframes fadein {
+  20% {
+    opacity: 1; }
+  100% {
+    opacity: 1; } }
+.op_box-7 {
+  opacity: 0;
+  -webkit-animation: 5s ease 7s normal forwards 1 fadein;
+  animation: 5s ease 7s normal forwards 1 fadein; }
+
+@keyframes fadein {
+  20% {
+    opacity: 1; }
+  100% {
+    opacity: 1; } }
+.op_box-8 {
+  opacity: 0;
+  -webkit-animation: 5s ease 8s normal forwards 1 fadein;
+  animation: 5s ease 8s normal forwards 1 fadein; }
+
+@keyframes fadein {
+  20% {
+    opacity: 1; }
+  100% {
+    opacity: 1; } }
+.op_box-9 {
+  opacity: 0;
+  -webkit-animation: 5s ease 9s normal forwards 1 fadein;
+  animation: 5s ease 9s normal forwards 1 fadein; }
+
+@keyframes fadein {
+  20% {
+    opacity: 1; }
+  100% {
+    opacity: 1; } }
 
 /*# sourceMappingURL=style.css.map */
