@@ -1,0 +1,18 @@
+footer{
+    
+    
+    background-color: $backfooter;
+    
+    color:white;
+      
+      justify-content:space-around;
+  
+      padding-bottom: 6%;
+  
+      @media screen and (min-width:$width_desktop) {
+        
+        padding-bottom: 0%;
+  
+      }
+    
+  }

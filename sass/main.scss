@@ -5,8 +5,6 @@
 
 @import './base/variable.scss';
 
-@import './base/html.scss';
-
 @import './base/taille_image.scss';
 
 @import './box/flex_box_image.scss';
@@ -22,6 +20,9 @@
 @import './div/div_footer.scss';
 
 @import './div/div_new2.scss';
+
+
+
 
 
 @import './div/div_image_nonew.scss';
@@ -48,6 +49,16 @@
 
 @import './box/box_logo.scss';
 
+
+@import './base/html/body.scss';
+
+@import './base/html/footer.scss';
+
+@import './base/html/html.scss';
+
+@import './base/html/img.scss';
+
+@import './base/html/main.scss';
 
 
 @import './box/box_text.scss';
