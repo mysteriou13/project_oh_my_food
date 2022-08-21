@@ -9,6 +9,10 @@
     height: 100%;
     padding-left: 2%;
     padding-top: 2%;
+
+    -moz-text-size-adjust: auto;
+    -webkit-text-size-adjust: auto;
+    text-size-adjust: auto;
   
     @media screen and (min-width:$min-width-tab) and (max-width:$max-width-tab){
   
