@@ -11,13 +11,30 @@
     z-index: 1;
   
     height: 10%;
+
+    left: 76%;
+
+    @-moz-document url-prefix() {
+
+     left: 70%;
+
+    }
   
   
   @media screen and (min-width: $width_desktop) {
     
-    top: -5%;
+    top: -6%;
     width: 67%;
-    left: 80%;
+    left: 84%;
+
+
+    @-moz-document url-prefix() {
+
+      left: 81%;
+      top: -5%;
+
+    }
+    
     
     }
   

@@ -6,7 +6,15 @@
     padding-bottom: 16%;
 
     position: relative;
+  
     left: 19%;
+
+
+    @-moz-document url-prefix() {
+
+      left:9%;
+
+    }
 
     font-size: 171%;
 

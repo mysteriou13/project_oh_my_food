@@ -1,9 +1,15 @@
 .button_explore {
     position: relative;  
       top: 34px;
-      left: 21%;
+      left: 18%;
      cursor: pointer;
 
+     @-moz-document url-prefix() {
+
+      left:13%;
+
+     }
+     
 
     @media  screen and(min-width:$width_desktop) {
 
