@@ -445,7 +445,8 @@ main {
   padding-top: 2%;
   -moz-text-size-adjust: auto;
   -webkit-text-size-adjust: auto;
-  text-size-adjust: auto; }
+  text-size-adjust: auto;
+  font-size: 0.8em; }
   @media screen and (min-width: 768px) and (max-width: 1024px) {
     .p_new {
       width: 9%; } }
