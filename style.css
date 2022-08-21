@@ -36,9 +36,9 @@
   height: 10%; }
   @media screen and (min-width: 1000px) {
     .div_new, .div_new2 {
-      top: -7%;
+      top: -5%;
       width: 67%;
-      left: 32%; } }
+      left: 80%; } }
   @media screen and (min-width: 768px) and (max-width: 1024px) {
     .div_new, .div_new2 {
       left: 84%;
@@ -436,7 +436,6 @@ main {
 .p_new {
   background-color: #99e2d0;
   position: relative;
-  left: 76%;
   top: 5px;
   font-weight: bold;
   z-index: 1;
@@ -608,8 +607,8 @@ input::-ms-input-placeholder {
 
 .titre_restaurant {
   font-weight: bold;
-  padding-top: 7%;
-  padding-bottom: 4%;
+  padding-top: 10%;
+  padding-bottom: 16%;
   position: relative;
   left: 19%;
   font-size: 171%;
