@@ -1,28 +1,28 @@
-.div_new{
+.div_new {
 
-  
-    color:$green_back;
-    position: relative;
-    top: -5%;
-  
-  
-    font-weight: bold;
-  
-    z-index: 1;
-  
-    height: 10%;
 
-    left: 76%;
+  color: $green_back;
+  position: relative;
+  top: -5%;
 
-    @-moz-document url-prefix() {
 
-     left: 70%;
+  font-weight: bold;
 
-    }
-  
-  
+  z-index: 1;
+
+  height: 10%;
+
+  left: 76%;
+
+  @-moz-document url-prefix() {
+
+    left: 70%;
+
+  }
+
+
   @media screen and (min-width: $width_desktop) {
-    
+
     top: -6%;
     width: 67%;
     left: 84%;
@@ -34,18 +34,17 @@
       top: -5%;
 
     }
-    
-    
-    }
-  
-    @media screen and (min-width:$min-width-tab) and (max-width:$max-width-tab){
-  
-      left: 84%;
-       padding: 0%; 
-      z-index: 1;
-      top: 3%;
-  
-    }
-  
+
+
   }
-  
+
+  @media screen and (min-width:$min-width-tab) and (max-width:$max-width-tab) {
+
+    left: 84%;
+    padding: 0%;
+    z-index: 1;
+    top: 3%;
+
+  }
+
+}

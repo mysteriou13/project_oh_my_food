@@ -1,88 +1,88 @@
-.card_plat{
+.card_plat {
 
-    background-color: white;
-    margin-bottom: 4%;
-    box-shadow: 1px 0px 5px grey;
-    border-radius: 8px;
-  
-  
-  
-    @media screen and (min-width: $width_desktop) {
-  
-      width: 34vh;
-  
-      margin-bottom: 0%;
-  
-    }
-  
-  &:hover{
-  
-    cursor: pointer;
-  
-    .validator{
-  
-      
-  
-    display: block;
-  
-    background-color: $green; 
-    width: $width-validator;
-  
-  border: 3px $green;
-  
-  border-top-right-radius: 10%;
-  border-bottom-right-radius: 10%;
-  
+  background-color: white;
+  margin-bottom: 4%;
+  box-shadow: 1px 0px 5px grey;
+  border-radius: 8px;
+
+
+
+  @media screen and (min-width: $width_desktop) {
+
+    width: 34vh;
+
+    margin-bottom: 0%;
+
   }
-  
-  
-    .box_card{
+
+  &:hover {
+
+    cursor: pointer;
+
+    .validator {
+
+
+
+      display: block;
+
+      background-color: $green;
+      width: $width-validator;
+
+      border: 3px $green;
+
+      border-top-right-radius: 10%;
+      border-bottom-right-radius: 10%;
+
+    }
+
+
+    .box_card {
       display: flex;
     }
-  
-    .box_text{
-  
+
+    .box_text {
+
       width: $width_card;
-    
+
     }
-  
-    .check_valide{
-  
+
+    .check_valide {
+
       color: $green;
-  
-      
+
+
       position: relative;
       top: 14%;
       left: 14%;
-  
-  
+
+
     }
-  
-    .box_card_check{
-  
+
+    .box_card_check {
+
       background-color: white;
-  
+
       border-radius: 100%;
       width: 20px;
       height: 20px;
-  
+
       position: relative;
       top: 30%;
       left: 34%;
-      
+
+    }
+
+
+    .cut {
+
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+
+    }
+
+
   }
-  
-  
-  .cut{
-  
-    white-space: nowrap; 
-    overflow: hidden;
-    text-overflow: ellipsis; 
-  
-  }
-    
-  
-  }
-  
-  
-  }
+
+
+}

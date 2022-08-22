@@ -1,8 +1,8 @@
-.box_image_new{
+.box_image_new {
 
-    height:31vh;
-    border-bottom:15px solid $grey;
-    background-color:$backcolor;
+    height: 31vh;
+    border-bottom: 15px solid $grey;
+    background-color: $backcolor;
     border-radius: 29px;
 
     padding-bottom: 2%;
@@ -10,17 +10,17 @@
     @media screen and (min-width:$width_desktop) {
 
         width: 33%;
-        
+
     }
 
 }
 
 
-.box_image_nonew{
+.box_image_nonew {
 
-    height:30vh;
-    border-bottom:15px solid $grey;
-    background-color:$backcolor;
+    height: 30vh;
+    border-bottom: 15px solid $grey;
+    background-color: $backcolor;
     border-radius: 29px;
 
     padding-bottom: 2%;
@@ -28,8 +28,7 @@
     @media screen and (min-width:$width_desktop) {
 
         width: 33%;
-        
+
     }
 
 }
-

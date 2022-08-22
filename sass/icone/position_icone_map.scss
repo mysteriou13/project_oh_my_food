@@ -1,12 +1,12 @@
-.postion_icone_map{
+.postion_icone_map {
 
-    position: relative;
-    top: 1.5vh;
-  
-    @media screen and (min-width: $width_desktop) {
-  
-     top:0vh; 
-  
-    }
-  
+  position: relative;
+  top: 1.5vh;
+
+  @media screen and (min-width: $width_desktop) {
+
+    top: 0vh;
+
   }
+
+}

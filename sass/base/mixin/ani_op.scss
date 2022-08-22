@@ -1,11 +1,11 @@
-@mixin ani_op($e,$e2){
+@mixin ani_op($e, $e2) {
 
-    $t : $e+s;
+  $t : $e+s;
 
-    $t2 : $e2+s;
+  $t2 : $e2+s;
 
-    opacity:0;
-    -webkit-animation: $t ease $t2 normal forwards 1 fadein;
-    animation: $t ease $t2 normal forwards 1 fadein;
+  opacity: 0;
+  -webkit-animation: $t ease $t2 normal forwards 1 fadein;
+  animation: $t ease $t2 normal forwards 1 fadein;
 
-  }
+}

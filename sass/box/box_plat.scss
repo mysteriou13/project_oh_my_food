@@ -1,24 +1,24 @@
-.box_plat{
+.box_plat {
 
     background-color: $grey_div;
 
 
-        padding-top: 11%;
+    padding-top: 11%;
 
-        position: relative;
+    position: relative;
     top: -30px;
 
     border-top-left-radius: 28px;
-border-top-right-radius: 28px;
-   
+    border-top-right-radius: 28px;
 
 
-@media screen  and (min-width:$width_desktop) {
-        
-position: relative;
 
-padding-top: 2%;
+    @media screen and (min-width:$width_desktop) {
 
-}
+        position: relative;
+
+        padding-top: 2%;
+
+    }
 
 }

@@ -1,41 +1,41 @@
-.titre_restaurant{
+.titre_restaurant {
 
-    font-weight: bold;
-   
-    padding-top: 10%;
-    padding-bottom: 16%;
+  font-weight: bold;
 
+  padding-top: 10%;
+  padding-bottom: 16%;
+
+  position: relative;
+
+  left: 19%;
+
+
+  @-moz-document url-prefix() {
+
+    left: 9%;
+
+  }
+
+  font-size: 171%;
+
+  display: flex;
+  flex-direction: column;
+
+  @media screen and (min-width:$width_desktop) {
+
+    display: block;
     position: relative;
-  
-    left: 19%;
-
-
-    @-moz-document url-prefix() {
-
-      left:9%;
-
-    }
-
-    font-size: 171%;
-
-    display: flex;
-    flex-direction: column;
-    
-    @media screen  and (min-width:$width_desktop) {
-      
-  display: block;
-      position: relative;
     left: 36%;
 
     padding-top: 2%;
     padding-bottom: 2%;
 
-    }
+  }
 
-    @media screen and (min-width:$min-width-tab) and (max-width:$max-width-tab){
-      display: block;
-      left: 24%;
-
-    }
+  @media screen and (min-width:$min-width-tab) and (max-width:$max-width-tab) {
+    display: block;
+    left: 24%;
 
   }
+
+}

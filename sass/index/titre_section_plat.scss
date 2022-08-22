@@ -1,17 +1,15 @@
+.titre_section_plat {
 
-.titre_section_plat{
-  
-    @include roboto;
-  
-      font-size: 20px;
-      
-      position: relative;
-  
-      @media screen and (min-width:$width_desktop) {
-  
-        left:0%;
-      }
-  
-  
+  @include roboto;
+
+  font-size: 20px;
+
+  position: relative;
+
+  @media screen and (min-width:$width_desktop) {
+
+    left: 0%;
   }
-  
+
+
+}

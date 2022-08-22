@@ -1,15 +1,15 @@
-.titre_menu{
+.titre_menu {
 
-    display: flex;
+  display: flex;
   justify-content: space-between;
   width: 90%;
   position: relative;
   left: 4%;
-  
+
   @media screen and (min-width: $width_desktop) {
-  
+
     justify-content: space-evenly;
-  
+
   }
-  
-  }
+
+}

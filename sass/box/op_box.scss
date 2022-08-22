@@ -1,16 +1,19 @@
 @for $i from 1 through 9 {
     .op_box-#{$i} {
-           
-        @include ani_op(5,$i);
-          
+
+        @include ani_op(5, $i);
+
     }
-  
-    @keyframes fadein{
-  
-      20% { opacity:1; }
-  
-      100% { opacity:1; }
-  }
-  
-  }
-  
+
+    @keyframes fadein {
+
+        20% {
+            opacity: 1;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+}

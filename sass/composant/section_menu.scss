@@ -1,17 +1,15 @@
+.section_menu {
 
-.section_menu{
+  width: 95%;
+  position: relative;
+  left: 3%;
 
-    width: 95%;
-    position: relative;
-    left: 3%;
-  
-  
-    @media screen and (min-width: $width_desktop) {
-   
-      display: flex;
-      justify-content: space-evenly;
-      
+
+  @media screen and (min-width: $width_desktop) {
+
+    display: flex;
+    justify-content: space-evenly;
+
   }
-  
-  }
-  
+
+}

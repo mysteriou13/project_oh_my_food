@@ -1,14 +1,14 @@
-.div_new2{
-    @extend .div_new;
-    position: relative;
-     top: 2%;
-    width: 100%;
-  
-    @media screen and (min-width:$width_desktop) {
-      
-      top: -7%;
-      left: 83%;
-      width: 68%
+.div_new2 {
+  @extend .div_new;
+  position: relative;
+  top: 2%;
+  width: 100%;
+
+  @media screen and (min-width:$width_desktop) {
+
+    top: -7%;
+    left: 83%;
+    width: 68%
   }
-  
-    }
+
+}

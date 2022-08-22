@@ -1,46 +1,46 @@
 .button_explore {
-    position: relative;  
-      top: 34px;
-      left: 18%;
-     cursor: pointer;
+  position: relative;
+  top: 34px;
+  left: 18%;
+  cursor: pointer;
 
-     @-moz-document url-prefix() {
+  @-moz-document url-prefix() {
 
-      left:13%;
-
-     }
-     
-
-    @media  screen and(min-width:$width_desktop) {
-
-     
-      left: 37%;
-
-      margin-bottom: 0%;
-      
-
-    }
-
-    @media screen  and (min-width:$min-width-tab) and (max-width: $max-width-tab){
-
-      left:31%;
-
-    }
-
-    height: 57px;
-
-    padding-left: 6%;
-   padding-right: 6%;
-
-    
-    border: none;
-    border-top-left-radius: 26px;
-    border-bottom-left-radius: 26px;
-    border-bottom-right-radius: 26px;
-    border-top-right-radius: 26px;
-    color: white;
-    font-size: 1.2em;
-    background: linear-gradient(to bottom right, $pink, $purple);
-    margin-bottom: 10%;
+    left: 13%;
 
   }
+
+
+  @media screen and(min-width:$width_desktop) {
+
+
+    left: 37%;
+
+    margin-bottom: 0%;
+
+
+  }
+
+  @media screen and (min-width:$min-width-tab) and (max-width: $max-width-tab) {
+
+    left: 31%;
+
+  }
+
+  height: 57px;
+
+  padding-left: 6%;
+  padding-right: 6%;
+
+
+  border: none;
+  border-top-left-radius: 26px;
+  border-bottom-left-radius: 26px;
+  border-bottom-right-radius: 26px;
+  border-top-right-radius: 26px;
+  color: white;
+  font-size: 1.2em;
+  background: linear-gradient(to bottom right, $pink, $purple);
+  margin-bottom: 10%;
+
+}
