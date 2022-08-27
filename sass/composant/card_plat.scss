@@ -3,7 +3,7 @@
   background-color: white;
   margin-bottom: 4%;
   box-shadow: 1px 0px 5px grey;
-  border-radius: 8px;
+  border-radius: 10px;
 
 
 
@@ -30,8 +30,8 @@
 
       border: 3px $green;
 
-      border-top-right-radius: 10%;
-      border-bottom-right-radius: 10%;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
 
     }
 
@@ -49,8 +49,7 @@
     .check_valide {
 
       color: $green;
-
-
+      
       position: relative;
       top: 14%;
       left: 14%;

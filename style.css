@@ -377,7 +377,7 @@ a {
   background-color: white;
   margin-bottom: 4%;
   box-shadow: 1px 0px 5px grey;
-  border-radius: 8px; }
+  border-radius: 10px; }
   @media screen and (min-width: 1000px) {
     .card_plat {
       width: 34vh;
@@ -389,8 +389,8 @@ a {
       background-color: #99e2d0;
       width: 20%;
       border: 3px #99e2d0;
-      border-top-right-radius: 10%;
-      border-bottom-right-radius: 10%; }
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px; }
     .card_plat:hover .box_card {
       display: flex; }
     .card_plat:hover .box_text {
