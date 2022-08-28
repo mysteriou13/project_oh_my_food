@@ -6,13 +6,6 @@
   
   }
   
-  @keyframes fade {
-  
-    100% {
-      opacity: 0;
-    }
-  }
-  
   main {
   
     opacity: 0;
@@ -20,8 +13,7 @@
     $t : 4+s;
   
     $t2 : 1+s;
-  
-    -webkit-animation: $t ease $t2 normal forwards 1 fadein;
+
     animation: $t ease $t2 normal forwards 1 fadein;
   
   

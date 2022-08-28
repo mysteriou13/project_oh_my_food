@@ -10,19 +10,19 @@
 
 @import './div/div_new.scss';
 
+@import './div/div_new2.scss';
+
 @import './div/div_image_new.scss';
 
 @import './div/div_image_nonew.scss';
 
 @import './div/div_footer.scss';
 
-@import './div/div_new2.scss';
-
-@import './base/mixin/ani_op.scss';
-
 @import './base/mixin/roboto.scss';
 
 @import './base/mixin/Shrikhand.scss';
+
+@import './base/mixin/ani_op.scss';
 
 @import './div/div_image_nonew.scss';
 
@@ -160,3 +160,7 @@
 @import './titre/titre_footer.scss';
 
 @import './box/op_box.scss';
+
+@import './base/keyframe/fadein.scss';
+
+@import './base/keyframe/spin.scss';

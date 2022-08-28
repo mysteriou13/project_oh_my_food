@@ -54,6 +54,16 @@
       z-index: 1;
       top: 3%; } }
 
+.div_new2 {
+  position: relative;
+  top: 2%;
+  width: 100%; }
+  @media screen and (min-width: 1000px) {
+    .div_new2 {
+      top: -7%;
+      left: 83%;
+      width: 68%; } }
+
 .div_image_new {
   position: relative;
   top: -19%;
@@ -67,16 +77,6 @@
 .div_footer {
   margin-bottom: 4%;
   margin-left: 8%; }
-
-.div_new2 {
-  position: relative;
-  top: 2%;
-  width: 100%; }
-  @media screen and (min-width: 1000px) {
-    .div_new2 {
-      top: -7%;
-      left: 83%;
-      width: 68%; } }
 
 .div_image_nonew {
   position: relative;
@@ -158,21 +158,12 @@
     .spinner_rotation {
       left: 46%; } }
 
-@keyframes spin {
-  0% {
-    transform: rotate(0deg); }
-  100% {
-    transform: rotate(360deg); } }
 .spinner_opacity {
   opacity: 1;
   animation: fade 4s; }
 
-@keyframes fade {
-  100% {
-    opacity: 0; } }
 main {
   opacity: 0;
-  -webkit-animation: 4s ease 1s normal forwards 1 fadein;
   animation: 4s ease 1s normal forwards 1 fadein; }
 
 .box_restaurant_text {
@@ -411,7 +402,8 @@ a {
     .card_plat:hover .cut {
       white-space: nowrap;
       overflow: hidden;
-      text-overflow: ellipsis; }
+      text-overflow: ellipsis;
+      width: 80%; }
 
 .position_icone_map {
   position: relative;
@@ -701,81 +693,41 @@ input::-ms-input-placeholder {
   -webkit-animation: 5s ease 1s normal forwards 1 fadein;
   animation: 5s ease 1s normal forwards 1 fadein; }
 
-@keyframes fadein {
-  20% {
-    opacity: 1; }
-  100% {
-    opacity: 1; } }
 .op_box-2 {
   opacity: 0;
   -webkit-animation: 5s ease 2s normal forwards 1 fadein;
   animation: 5s ease 2s normal forwards 1 fadein; }
 
-@keyframes fadein {
-  20% {
-    opacity: 1; }
-  100% {
-    opacity: 1; } }
 .op_box-3 {
   opacity: 0;
   -webkit-animation: 5s ease 3s normal forwards 1 fadein;
   animation: 5s ease 3s normal forwards 1 fadein; }
 
-@keyframes fadein {
-  20% {
-    opacity: 1; }
-  100% {
-    opacity: 1; } }
 .op_box-4 {
   opacity: 0;
   -webkit-animation: 5s ease 4s normal forwards 1 fadein;
   animation: 5s ease 4s normal forwards 1 fadein; }
 
-@keyframes fadein {
-  20% {
-    opacity: 1; }
-  100% {
-    opacity: 1; } }
 .op_box-5 {
   opacity: 0;
   -webkit-animation: 5s ease 5s normal forwards 1 fadein;
   animation: 5s ease 5s normal forwards 1 fadein; }
 
-@keyframes fadein {
-  20% {
-    opacity: 1; }
-  100% {
-    opacity: 1; } }
 .op_box-6 {
   opacity: 0;
   -webkit-animation: 5s ease 6s normal forwards 1 fadein;
   animation: 5s ease 6s normal forwards 1 fadein; }
 
-@keyframes fadein {
-  20% {
-    opacity: 1; }
-  100% {
-    opacity: 1; } }
 .op_box-7 {
   opacity: 0;
   -webkit-animation: 5s ease 7s normal forwards 1 fadein;
   animation: 5s ease 7s normal forwards 1 fadein; }
 
-@keyframes fadein {
-  20% {
-    opacity: 1; }
-  100% {
-    opacity: 1; } }
 .op_box-8 {
   opacity: 0;
   -webkit-animation: 5s ease 8s normal forwards 1 fadein;
   animation: 5s ease 8s normal forwards 1 fadein; }
 
-@keyframes fadein {
-  20% {
-    opacity: 1; }
-  100% {
-    opacity: 1; } }
 .op_box-9 {
   opacity: 0;
   -webkit-animation: 5s ease 9s normal forwards 1 fadein;
@@ -786,5 +738,10 @@ input::-ms-input-placeholder {
     opacity: 1; }
   100% {
     opacity: 1; } }
+@keyframes spin {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); } }
 
 /*# sourceMappingURL=style.css.map */
