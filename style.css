@@ -391,7 +391,8 @@ a {
       color: #99e2d0;
       position: relative;
       top: 14%;
-      left: 14%; }
+      left: 14%;
+      animation: spin 3s; }
     .card_plat:hover .box_card_check {
       background-color: white;
       border-radius: 100%;
