@@ -1,5 +1,7 @@
 .text_box {
 
+  @include roboto;
+
   color: black;
 
   position: relative;

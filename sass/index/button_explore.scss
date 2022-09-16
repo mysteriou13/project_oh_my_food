@@ -1,4 +1,9 @@
 .button_explore {
+
+  @include roboto;
+  color: white;
+  font-weight: bold;
+
   position: relative;
   top: 34px;
   left: 18%;

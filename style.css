@@ -75,6 +75,7 @@
   height: 75%; }
 
 .div_footer {
+  font-family: 'Roboto', sans-serif;
   margin-bottom: 4%;
   margin-left: 8%; }
 
@@ -196,7 +197,6 @@ main {
 
 body {
   background-color: #ffffff;
-  font-family: 'Roboto', sans-serif;
   margin: 0;
   height: 100%;
   overflow-x: hidden; }
@@ -224,6 +224,7 @@ a {
   color: white; }
 
 .box_text {
+  font-family: 'Roboto', sans-serif;
   padding-top: 2%;
   padding-bottom: 5%;
   padding-left: 3%; }
@@ -251,6 +252,9 @@ a {
       margin-bottom: 0%; } }
 
 .button_explore, .btn_commander {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-weight: bold;
   position: relative;
   top: 34px;
   left: 18%;
@@ -418,7 +422,8 @@ a {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   position: relative;
-  left: 13%; }
+  left: 13%;
+  margin-left: -1%; }
   @media screen and (min-width: 1000px) {
     .sous_titre {
       left: 36%; } }
@@ -497,6 +502,7 @@ input::-ms-input-placeholder {
       margin-bottom: 2%; } }
 
 .text_box {
+  font-family: 'Roboto', sans-serif;
   color: black;
   position: relative;
   left: 4%;
@@ -572,6 +578,10 @@ input::-ms-input-placeholder {
       top: 30%;
       height: 28%;
       width: 9%; } }
+
+.text_nav {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold; }
 
 #icone_mobile {
   color: grey; }
@@ -649,6 +659,7 @@ input::-ms-input-placeholder {
       left: 0%; } }
   @media screen and (min-width: 1000px) {
     .soustitre {
+      margin-left: -1%;
       left: 1%; } }
 
 .titre_box_resto {
@@ -666,6 +677,7 @@ input::-ms-input-placeholder {
       left: 16%; } }
 
 .titre_menu {
+  font-family: 'Roboto', sans-serif;
   display: flex;
   justify-content: space-between;
   width: 90%;
