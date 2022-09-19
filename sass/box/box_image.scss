@@ -1,6 +1,6 @@
 .box_image_new {
 
-    height: 35vh;
+    height: $height_box;
     border-bottom: 15px solid $grey;
     background-color: $backcolor;
     border-radius: 24px;
@@ -9,26 +9,19 @@
 
     @media screen and (min-width:$width_desktop) {
 
-        width: 33%;
+        width: $width_box;
 
-    }
+
+}
 
 }
 
 
 .box_image_nonew {
 
-    height: 35vh;
-    border-bottom: 15px solid $grey;
-    background-color: $backcolor;
+    @extend .box_image_new;
+
     border-radius: 20px;
 
-    padding-bottom: 2%;
-
-    @media screen and (min-width:$width_desktop) {
-
-        width: 33%;
-
-    }
 
 }

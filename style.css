@@ -77,7 +77,9 @@
 .div_footer {
   font-family: 'Roboto';
   margin-bottom: 4%;
-  margin-left: 8%; }
+  margin-left: 8%;
+  color: white;
+  font-weight: bold; }
 
 .div_image_nonew {
   position: relative;
@@ -89,25 +91,18 @@
   width: 105%;
   left: -13%; }
 
-.box_image_new {
-  height: 35vh;
+.box_image_new, .box_image_nonew {
+  height: 32vh;
   border-bottom: 15px solid #eaeaea;
   background-color: #ffffff;
   border-radius: 24px;
   padding-bottom: 2%; }
   @media screen and (min-width: 1000px) {
-    .box_image_new {
+    .box_image_new, .box_image_nonew {
       width: 33%; } }
 
 .box_image_nonew {
-  height: 35vh;
-  border-bottom: 15px solid #eaeaea;
-  background-color: #ffffff;
-  border-radius: 20px;
-  padding-bottom: 2%; }
-  @media screen and (min-width: 1000px) {
-    .box_image_nonew {
-      width: 33%; } }
+  border-radius: 20px; }
 
 .box_plat {
   background-color: #f6f6f6;
