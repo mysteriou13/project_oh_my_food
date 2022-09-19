@@ -12,6 +12,7 @@
     @media screen and (min-width:$width_desktop) {
 
       left:36%;
+      display: flex;
     }
 
 
@@ -19,5 +20,17 @@
     left: 32%;
       
     }
+
+}
+
+.sous_titre_ligne_2{
+
+  @include roboto;
+
+
+  @media screen and (min-width:$width_desktop) {
+  margin-left: 1%;
+
+  }
 
 }

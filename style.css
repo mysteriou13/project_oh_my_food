@@ -425,10 +425,17 @@ a {
   margin-left: -1%; }
   @media screen and (min-width: 1000px) {
     .sous_titre {
-      left: 36%; } }
+      left: 36%;
+      display: flex; } }
   @media screen and (min-width: 768px) and (max-width: 1024px) {
     .sous_titre {
       left: 32%; } }
+
+.sous_titre_ligne_2 {
+  font-family: 'Roboto'; }
+  @media screen and (min-width: 1000px) {
+    .sous_titre_ligne_2 {
+      margin-left: 1%; } }
 
 .section_menu {
   width: 95%;
